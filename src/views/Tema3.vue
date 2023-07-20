@@ -42,7 +42,7 @@
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Tabla 6
+          h5 Figura 2
           span Estructura base de un documento SRS
       .col-lg-6.BG08.p-4(data-aos="zoom-in")
         .h5 1. Introducción
@@ -287,7 +287,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/9MaFAIVuGVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7(data-aos="fade-right")
+      .col-lg-7(data-aos="fade-right").mb-lg-0.mb-3
         .bloque-texto-c.color-primario.p-4
           i.fas.fa-quote-right
           h4.mb-2 El marco de trabajo Scrum está soportado en un proceso de construcción iterativo e incremental evolutivo, en el que se identifican tres roles principales: el equipo de trabajo (team) conformado por los desarrolladores, diseñadores, personal de calidad y de infraestructura requerido para la construcción del producto de #[em software]; el scrum master que realizan funciones parecidas a las de un director de proyecto, pero más enfocados en garantizar que el equipo de trabajo tenga todas las herramientas y recursos necesarios para el desarrollo de su trabajo; y, finalmente, el dueño del producto (product owner) que se convierte en un representante del cliente y quien es el único encargado de la gestión de requisitos del proyecto.
@@ -332,7 +332,7 @@
       .col-lg-4.col-8(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/img14.svg' alt='AvatarTop')
-          .BGR10.hg-03.p-4
+          .BGR10.hg-03.p-4(style="background-color: #fea092 ")
             p.mt-5.mb-0 Descomposición de cada historia de usuario en tareas y, de ser necesario, asignar responsables a cada tarea.
 
     p A continuación, se expone una figura en la que se representan los artefactos generados dentro del marco de trabajo Scrum y que permiten la gestión de los requisitos y el evento desde el cual se construye inicialmente.
@@ -343,7 +343,7 @@
 
     .row.justify-content-center(data-aos="zoom-in")
       .col-lg-10
-        img(src="@/assets/curso/tema3/img15.svg")
+        img(src="@/assets/curso/tema3/img15.svg" alt="Representación del gran tamaño de una Pila de producto contra una sintetizada pila de sprint, luego de atravesar una planeación del equipo.")
       
     separador
     #t_3_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -434,7 +434,7 @@
         .BG08.p-4(data-aos="zoom-in")
           .row.justify-content-center
             .col-lg-10
-              img(src="@/assets/curso/tema3/img20.svg")
+              img(src="@/assets/curso/tema3/img20.svg" alt="Ejemplo del tablero de Kanban en el que se muestran por columnas las tareas por hacer, aquellas que están en proceso y las que se encuentran hechas.")
 
     p Dependiendo del marco de trabajo, varía la forma en la que se describen cada una de las tareas del tablero Kanban, por ejemplo, dentro de un marco de trabajo como Scrum cada una de las tareas se podría describir en el formato de historias de usuario.
 

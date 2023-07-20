@@ -44,12 +44,12 @@
       .d-flex.flex-wrap.px-4(style="background-color: #993A2B; border-radius: 25px; padding: 10px")
         h4.col.mb-0.text-white(data-aos="fade-right") Técnicas de comunicación oral
       
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
+    .row.justify-content-center.mb-5
       p Consisten en la preparación teórica y práctica para el desenvolvimiento oral sobre un tema en específico, por ejemplo, la exposición de una idea o proyecto. 
       p Las técnicas que se pueden utilizar para la comunicación oral son:
-      .col-lg-12.d-none.d-lg-flex
+      .col-lg-12.d-none.d-lg-block
         img(src="@/assets/curso/tema1/img03.svg")
-      .col-12.d-lg-none.d-flex
+      .col-12.d-lg-none.d-block
         img(src="@/assets/curso/tema1/img04.svg")
       
     .mb-4.d-flex
@@ -60,7 +60,7 @@
     p Las técnicas que se pueden utilizar para la comunicación escrita son:
     
     .BGM02.px-md-5.px-4.py-4.mb-4
-      .row.justify-content-center.mb-5(data-aos="zoom-in")
+      .row.justify-content-center.mb-5
         .col-lg-8.d-none.d-lg-flex
           img(src="@/assets/curso/tema1/img05.svg")
         .col-12.d-lg-none.d-flex
@@ -70,77 +70,77 @@
       .d-flex.flex-wrap.px-4(style="background-color: #993A2B; border-radius: 25px; padding: 10px")
         h4.col.mb-0.text-white(data-aos="fade-right") Técnicas de manejo de la información
     
-    .BGR02.p-4.mb-4(data-aos="zoom-out")
+    .BGR02.p-4.mb-4
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-lg-10
-            .h4 Técnicas de manejo de la información
             p Consiste en las buenas prácticas para el adecuado manejo de la información dentro de una organización, en el desarrollo de una actividad, proceso o de un proyecto.
             p Existen diversas técnicas para un adecuado manejo de información, a continuación, se listan algunas en relación a la gestión de servicios en la nube.
           .col-lg-8
             img(src="@/assets/curso/tema1/img07.svg")
         .row.justify-content-center.align-items-center
           .col-lg-3.col-6.mb-4
-            img(src="@/assets/curso/tema1/img08.svg")
-          .col-lg-7.mb-4
+
+          .col-lg-10.mb-4
+            .tarjeta.color-secundario.rounded-pill.p-3.d-inline-block.mb-3
+              h4.mb-0.mx-2 Clasificación
             p Corresponde a un objetivo de la norma ISO 27001.
             p.mb-0 Asegurar que la información recibe un nivel apropiado de protección, de acuerdo con su importancia para la organización. 
           .col-lg-6.mb-lg-0.mb-4
             p Y también es un control, pues una empresa establece más niveles de clasificación a medida que la misma sea de mayor tamaño y presente una mayor complejidad.
             p Las empresas de tamaño medio, pueden establecer estos niveles para clasificar la información según el carácter confidencial de la misma:
             ul.lista-ul--color
-              li(style="margin-bottom: 2px")
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-check(style="color: #FF6148")
                 p.mb-0 #[b Confidencial]: cuando el nivel de confidencialidad de la información se incremente.
-              li(style="margin-bottom: 2px")
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-check(style="color: #FF6148")
                 p.mb-0 #[b Restringido]: para niveles medios de confidencialidad.
-              li(style="margin-bottom: 2px")
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-check(style="color: #FF6148")
                 p.mb-0 #[b Uso interno]: información con un nivel bajo de confidencialidad.
-              li(style="margin-bottom: 2px")
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-check(style="color: #FF6148")
                 p.mb-0 #[b Público]: cuando todas las personas pueden ver la información.
           .col-lg-4.col-8
             img(src="@/assets/curso/tema1/img08.png")
         .row.justify-content-center.align-items-center
-          .col-lg-3.col-6.mb-4
-            img(src="@/assets/curso/tema1/img09.svg")
-          .col-lg-7.mb-4
-            p.mb-0 Corresponde a un control del Anexo A del estándar ISO/IEC 27001:2013.
-          .col-lg-6.mb-lg-0.mb-4
+          .col-lg-10.mb-4
+            .tarjeta.color-secundario.rounded-pill.p-3.d-inline-block.mb-3
+              h4.mb-0.mx-2 Etiquetado
+            p.mb-2 Corresponde a un control del Anexo A del estándar ISO/IEC 27001:2013.
             p Se debería desarrollar e implementar un conjunto adecuado de procedimientos para el etiquetado de la información, de acuerdo con el esquema de clasificación de información adoptado por la organización.
           .col-lg-4.col-8
             img(src="@/assets/curso/tema1/img09.png")
         .row.justify-content-center.align-items-center
-          .col-lg-3.col-6.mb-4
-            img(src="@/assets/curso/tema1/img10.svg")
-          .col-lg-7.mb-4
+          .col-lg-10.mb-4
+            .tarjeta.color-secundario.rounded-pill.p-3.d-inline-block.mb-3
+              h4.mb-0.mx-2 Documentación
           .col-lg-6.mb-lg-0.mb-4
             p Documentación ordenada según los tipos. Corresponde a los documentos de procesos o procedimiento, manuales, instructivos, formatos, registros, actas.
           .col-lg-4.col-8
             img(src="@/assets/curso/tema1/img10.png")
         .row.justify-content-center.align-items-center
-          .col-lg-3.col-6.mb-4
-            img(src="@/assets/curso/tema1/img11.svg")
-          .col-lg-7.mb-4
+          .col-lg-10.mb-4
+            .tarjeta.color-secundario.rounded-pill.p-3.d-inline-block.mb-3
+              h4.mb-0.mx-2 Confidencialidad, integridad y desponibilidad.
           .col-lg-6.mb-lg-0.mb-4
             p Corresponde a un objetivo de la norma ISO/IEC 27001:2013. 
             p.mb-0 Asegurar el uso apropiado y eficaz de la criptografía para proteger la confidencialidad, la autenticidad y/o la integridad de la información. 
           .col-lg-4.col-8
             img(src="@/assets/curso/tema1/img11.png")
         .row.justify-content-center.align-items-center
-          .col-lg-3.col-6.mb-4
-            img(src="@/assets/curso/tema1/img12.svg")
-          .col-lg-7.mb-4
+          .col-lg-10.mb-4
+            .tarjeta.color-secundario.rounded-pill.p-3.d-inline-block.mb-3
+              h4.mb-0.mx-2 Almacenado y respaldo
           .col-lg-6.mb-lg-0.mb-4
             p.mb-0 Responde a la seguridad ofrecida al cliente en cuanto a la seguridad que se tiene de los datos y la información que maneja y guarda el proveedor de servicios en la nube.
           .col-lg-4.col-8
             img(src="@/assets/curso/tema1/img12.png")
         .row.justify-content-center.align-items-center
-          .col-lg-3.col-6.mb-4
-            img(src="@/assets/curso/tema1/img13.svg")
-          .col-lg-7.mb-4
+          .col-lg-10.mb-4
+            .tarjeta.color-secundario.rounded-pill.p-3.d-inline-block.mb-3
+              h4.mb-0.mx-2 Seguridad; Control de acceso y cifrado
           .col-lg-6.mb-lg-0.mb-4
             p.mb-0 Para controlar el acceso al sistema, debe mantener la seguridad física del entorno informático. Por ejemplo, un sistema cuya sesión está iniciada pero desatendida es vulnerable al acceso no autorizado. Un intruso puede obtener acceso al sistema operativo y a la red. El entorno y el #[em hardware] del equipo deben estar físicamente protegidos contra el acceso no autorizado.
           .col-lg-4.col-8

@@ -16,7 +16,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/img01.svg')})`}")
             .tarjeta-flip__contenido.p-xl-5.p-4
-              .BGR17A.p-2.mb-4
+              .BGR17A.p-2.mb-4(style="background-color: #fe9080")
                 h4.text-center.mb-0 Metodología rígida
               p.mb-0 Anteriormente para el desarrollo de un proyecto de #[em software] se utilizaba una metodología muy rígida en la que se llevaban a cabo procesos de identificación de necesidades, análisis y diseño, planificación, codificación, prueba piloto e implementación; fases que todavía se aplican pero que exigían grandes esfuerzos y se invertía muchísimo tiempo sobre todo en la etapa de planificación donde se debía documentar hasta el más mínimo detalle.
       .col-xl-4.col-md-6.col-8.mb-xl-0.mb-4(data-aos="flip-up")
@@ -25,7 +25,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/img02.svg')})`}")
             .tarjeta-flip__contenido.p-xl-5.p-4
-              .BGR17A.p-2.mb-4
+              .BGR17A.p-2.mb-4(style="background-color: #fe9080")
                 h4.text-center.mb-0 Reprocesos
               p.mb-0 Toda esta rigurosidad se sustentaba en el argumento de que no se tuviera que hacer ningún reproceso y el producto liberado fuera de alta calidad. Entonces, con la cantidad de tiempo invertido se hacía casi imposible realizar modificaciones en los requisitos, pues tocaba empezar de cero con el levantamiento de la información, la planificación y la documentación para diseñar y desarrollar el producto nuevamente.
       .col-xl-4.col-md-6.col-8.mb-xl-0.mb-4(data-aos="fade-left")
@@ -34,7 +34,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/img03.svg')})`}")
             .tarjeta-flip__contenido.p-xl-5.p-4
-              .BGR17A.p-2.mb-4
+              .BGR17A.p-2.mb-4(style="background-color: #fe9080")
                 h4.text-center.mb-0 Metodologías ágiles
               p.mb-0 Cuando se emprendían proyectos de desarrollo de #[em software] mucho más pequeños que exigían tiempos de respuesta cortos para la obtención de resultados, esta metodología se tornó completamente ineficiente pues se gastaba mucho tiempo y recursos en cada fase del proyecto y no se podían realizar cambios a los requisitos para mejorar el producto, por lo tanto empezaron a surgir nuevos métodos más ágiles con un enfoque iterativo es decir por bloques de tareas para llevar a cabo los requisitos de los usuarios teniendo en cuenta que estos pueden cambiar durante todo el proceso de desarrollo.
 
@@ -103,22 +103,22 @@
         p Debido a los diferentes procedimientos que se utilizaban para llevar a cabo los proyectos de #[em software] y con el afán de unificarlos en un conjunto de buenas prácticas que se pudieran aplicar en los procesos de desarrollo, en el 2001 se creó la organización Agile Alliance; cuyo principal objetivo fue definir un conjunto de principios bajo los cuales se pueda trabajar de manera ágil y con calidad en cualquier entorno. 
         p Dichos principios fueron acuñados con el nombre de “Manifiesto agile” y su fundamento se halla en valores que promueven una cultura basada en la aceptación y adaptación a los cambios que sean necesarios para el progreso de una organización. Los valores mencionados priorizan:
         ol.lista-ol--cuadro
-          li 
+          li.d-flex 
             .lista-ol--cuadro__vineta(styte="color: #000")
               span a
-            | Los individuos y las interacciones que se puedan realizar sobre los procesos y las herramientas.
-          li 
+            p.mb-0 Los individuos y las interacciones que se puedan realizar sobre los procesos y las herramientas.
+          li.d-flex 
             .lista-ol--cuadro__vineta(styte="color: #000")
               span b
             p.mb-0 La funcionalidad del #[em software] que se desarrolle sobre la excesiva documentación que se haga sobre este.
-          li 
+          li.d-flex 
             .lista-ol--cuadro__vineta(styte="color: #000")
               span c
-            | 	La colaboración con el cliente sobre los detalles de los aspectos contractuales.
-          li 
+            p.mb-0 	La colaboración con el cliente sobre los detalles de los aspectos contractuales.
+          li.d-flex 
             .lista-ol--cuadro__vineta(styte="color: #000")
               span d
-            | 	Las respuestas ante los cambios sobre seguir un plan preestablecido.
+            p.mb-0 	Las respuestas ante los cambios sobre seguir un plan preestablecido.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema5/img05.svg")
     
@@ -132,51 +132,36 @@
             LineaTiempoB.color-acento-botones.mb-5(:datos="datosLineaTiempoB")
 
     p Para complementar el tema se recomienda realizar las lecturas Gestión Ágil de proyectos y Manifiesto por el Desarrollo Ágil de #[em Software], que se encuentran en el material complementario.
-
-    .row.justify-content-center.mb-4
-      .col-lg-4.col-8(data-aos="fade-right")
-        .tarjeta--boton.color-primario.p-4.indicador__container(@click="modal1 = true")
-          .indicador--click(v-if="mostrarIndicador")
-          .row.justify-content-center.mb-3
-            .col-7
-              img(src='@/assets/curso/tema5/img18.svg')
-          .BGR17A.p-2.mb-4
-            h4.text-center.mb-0 <span style="color: #000 !important">¡Vamos a Practicar!</span>
-          p.text-white.text-center Leer más
-            i.fas.fa-plus-circle.ms-4
-            
-
-    ModalA(:abrir-modal.sync="modal1")
-      .row.justify-content-center
-        .col-lg-1.col-2.mb-lg-0.mb-4
-          img(src='@/assets/curso/tema5/img19.svg')
-        .col
-          .h4 Vamos a Practicar
-          .tabla-a.color-acento-contenido(data-aos="zoom-in")
-            table
-              thead(style="border-color: transparent")
-                tr
-                  th(style="background-color: #083142;").text-center.text-white Tarea #1
-                  th(style="background-color: #083142;").text-center.text-white Tarea #2
-              tbody
-                tr
-                  td <i class="far fa-check-circle" style="color: #083142"></i> Paso 1: alista un cronómetro (celular o reloj).
-                  td <i class="far fa-check-circle" style="color: #083142"></i> Paso 1: igual a la Tarea#1.
-                tr
-                  td <i class="far fa-check-circle" style="color: #083142"></i> Paso 2: toma 6 monedas de cualquier valor.
-                  td <i class="far fa-check-circle" style="color: #083142"></i> Paso 2: igual a la Tarea#1
-                tr
-                  td <i class="far fa-check-circle" style="color: #083142"></i> Paso 3: lánzalas al piso al mismo tiempo y activa el cronómetro.
-                  td <i class="far fa-check-circle" style="color: #083142"></i> Paso 3: lanza la primera moneda y activa el cronómetro.
-                tr
-                  td <i class="far fa-check-circle" style="color: #083142"></i> Paso 4: anota en que cayó cada moneda (cara o cruz).
-                  td <i class="far fa-check-circle" style="color: #083142"></i> Paso 4: anota en que cayó (cara o sello) la primera moneda y después lanza la segunda moneda y repites el proceso hasta completar la última.
-                tr
-                  td <i class="far fa-check-circle" style="color: #083142"></i> Paso 5: cuando termines con la última moneda debes para el cronometro.
-                  td <i class="far fa-check-circle" style="color: #083142"></i> Paso 5: igual a la Tarea#1.
-                tr
-                  td <i class="far fa-check-circle" style="color: #083142"></i> Paso 6: registra el tiempo.
-                  td <i class="far fa-check-circle" style="color: #083142"></i> Paso 6: igual a la Tarea#1.
+    .row.justify-content-center
+      .col-lg-1.col-2.mb-lg-0.mb-4
+        img(src='@/assets/curso/tema5/img19.svg')
+      .col
+        .h4 Vamos a Practicar
+        .tabla-a.color-acento-contenido(data-aos="zoom-in")
+          table
+            thead(style="border-color: transparent")
+              tr
+                th(style="background-color: #083142;").text-center.text-white Tarea #1
+                th(style="background-color: #083142;").text-center.text-white Tarea #2
+            tbody
+              tr
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 1: alista un cronómetro (celular o reloj).
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 1: igual a la Tarea#1.
+              tr
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 2: toma 6 monedas de cualquier valor.
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 2: igual a la Tarea#1
+              tr
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 3: lánzalas al piso al mismo tiempo y activa el cronómetro.
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 3: lanza la primera moneda y activa el cronómetro.
+              tr
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 4: anota en que cayó cada moneda (cara o cruz).
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 4: anota en que cayó (cara o sello) la primera moneda y después lanza la segunda moneda y repites el proceso hasta completar la última.
+              tr
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 5: cuando termines con la última moneda debes para el cronometro.
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 5: igual a la Tarea#1.
+              tr
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 6: registra el tiempo.
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 6: igual a la Tarea#1.
 
     separador
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -219,10 +204,10 @@
     .row.justify-content-center.mb-4
       .col-lg-8.mb-4(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          h5 Figura 1
+          h5 Figura 18
           span Ciclo game - Proceso realizado en cada iteración del producto
       .col-lg-6.p-4(data-aos="zoom-in")
-        img(src="@/assets/curso/tema5/img23.svg")
+        img(src="@/assets/curso/tema5/img23.svg" alt="La planificación de la iteración, la ejecución de tareas, la sincronización diaria, la revisión del producto y la retrospectiva son el ciclo game.")
 
     p Después de #[b planificar la iteración] que algunos autores como Sánchez (2018) llaman Sprint, se comienza a #[b ejecutar cada tarea de la iteración]:
 

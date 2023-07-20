@@ -593,13 +593,13 @@
     p La descomposición funcional se realiza, por lo general, para identificar y entender los componentes o partes que constituyen un todo; en este proceso es vital identificar las interacciones entre componentes. A continuación, se expone un ejemplo gráfico sobre esta descomposición funcional.
 
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-      h5 Figura 2
+      h5 Figura 1
       span Ejemplo de descomposición funcional de un sistema de gestión comercialización de productos (fragmento).
 
     .BG06.p-4(data-aos="zoom-in")
       .row.justify-content-center
         .col-lg-10
-          img(src="@/assets/curso/tema2/img27.svg")
+          img(src="@/assets/curso/tema2/img27.svg" alt="Mapa conceptual de una descomposición funcional en la gestión de comercialización de productos en gestión de clientes, proveedores y productos.")
 
 </template>
 

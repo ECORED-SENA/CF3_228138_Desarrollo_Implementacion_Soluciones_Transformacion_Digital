@@ -236,7 +236,7 @@ export default {
     {
       tema: '2. Técnicas de análisis de requisitos',
       referencia:
-        'Facultad de Estudios a Distancia UMNG. (2021). Elementos de la norma IEEE 830 [Video]. YouTube.',
+        'Facultad de Estudios a Distancia UMNG. (2021). Elementos de la norma IEEE 830 ',
       tipo: 'Video',
       link: 'https://youtu.be/LjBOTZdd_iE',
     },
@@ -257,7 +257,7 @@ export default {
     {
       tema: '5. Metodologías de desarrollo',
       referencia:
-        'Henao, C. (2018). Qué son las metodologías ágiles en el desarrollo de Software [Video]. YouTube.',
+        'Henao, C. (2018). Qué son las metodologías ágiles en el desarrollo de Software ',
       tipo: 'Video',
       link: 'https://youtu.be/fHKsufzM7qQ',
     },
@@ -279,8 +279,7 @@ export default {
     },
     {
       tema: '7.1 Tipos y clasificación de la información',
-      referencia:
-        'Jibaro X. (2019). Tipos de preguntas en una encuesta [Video]. YouTube.',
+      referencia: 'Jibaro X. (2019). Tipos de preguntas en una encuesta ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=mwnQuUi9014',
     },
@@ -295,7 +294,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Algoritmo:',
+      termino: 'Algoritmo',
       significado:
         'es una secuencia que se lleva a cabo de forma lógica y secuencial que tiene como objetivo la solución de un problema.',
     },
@@ -322,7 +321,7 @@ export default {
     {
       termino: 'Marcos de trabajo ágiles',
       significado:
-        'conjunto de estándares, metodologías, técnicas, <em>frameworks</em> o guías que rigen un proceso de desarrollo de <em>software</em>, basadas en principios y/o valores ágiles, como, por ejemplo: <em>Scrum, Lean Software, XP, TDD</em>, entre otros.',
+        'conjunto de estándares, metodologías, técnicas, <em>frameworks</em> o guías que rigen un proceso de desarrollo de <em>software</em>, basadas en principios y/o valores ágiles, como, por ejemplo: Scrum, <em>Lean Software</em>, XP, TDD, entre otros.',
     },
     {
       termino: 'Metodologías ágiles',
@@ -345,7 +344,7 @@ export default {
         'prueba que se ejecuta una vez se aprueban las pruebas unitarias, y lo que busca es verificar que el conjunto de fragmentos de código funciona junto de forma correcta. Es una prueba de conjunto.',
     },
     {
-      termino: '<em>Scrum</em>',
+      termino: 'Scrum',
       significado:
         'metodología de trabajo ágil que está basada en ciclos con periodos de tiempo cortos, que pueden ser semanas o meses, para entregar una parte del proyecto.',
     },

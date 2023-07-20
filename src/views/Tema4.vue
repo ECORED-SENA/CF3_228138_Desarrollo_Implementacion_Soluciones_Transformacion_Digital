@@ -93,15 +93,15 @@
         p Existe un conjunto de fuentes de requisitos en cada proyecto de desarrollo de #[em software], así, usuarios y expertos abastecen de información detallada acerca del problema y necesidades del usuario. Los procesos y sistemas existentes representan, también, fuentes de requisitos; además, la documentación existente como manuales, formularios y reportes, incluso especificaciones de requisitos anteriores, puede proveer información útil acerca de la organización y su entorno.
         p En el proceso de esta actividad se identifican:
         ul.lista-ul--color
-          li(style="margin-bottom: 2px")
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Interesados relevantes.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Interesados relevantes.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Documentación que se puede usar como fuente de información de los requerimientos.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Documentación que se puede usar como fuente de información de los requerimientos.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Fuentes de información externas.
+            p.mb-0 Fuentes de información externas.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img06.svg")
 
@@ -177,24 +177,24 @@
           p Sommerville y Sawyer, 2005.
       .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-left")
         ul.lista-ul--color
-          li(style="margin-bottom: 2px")
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Líder de proyecto / Administrador de proyecto / Gerente de proyecto.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Líder de proyecto / Administrador de proyecto / Gerente de proyecto.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Analista / Ingeniero de requisitos.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Analista / Ingeniero de requisitos.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Ingeniero de sistemas / Arquitecto.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Ingeniero de sistemas / Arquitecto.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            p.mb-0 Programador / Desarrollador / Ingeniero de #[em software].
-          li(style="margin-bottom: 2px")
+            p.mb-0.mb-0 Programador / Desarrollador / Ingeniero de #[em software].
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Probador / Asegurador de la calidad.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Probador / Asegurador de la calidad.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Administrador de bases de datos.
+            p.mb-0 Administrador de bases de datos.
     
     p En la siguiente tabla se presentan los principales roles involucrados en el proceso de ingeniería de requisitos, así como las actividades en las que tienen mayor participación.
 
@@ -300,7 +300,7 @@
             img(src="@/assets/curso/tema4/img20.svg")
         .row.justify-content-between(titulo="Estrategias")
           .col-lg-8.order-lg-1.order-2
-            p.mb-0 Es un listado de acciones que se pueden emprender para obtener el apoyo necesario o evitar obstáculos por parte de los #[em stakeholders] durante la ejecución y conclusión del proyecto. Las estrategias se desarrollan considerando el tipo de #[em stakeholder], los objetivos en los que está interesado, el nivel de interés y poder que puede ejercer en el proyecto (figura 1) y las acciones posibles que podría emprender para afectar tanto positiva como negativamente al proyecto.
+            p.mb-0 Es un listado de acciones que se pueden emprender para obtener el apoyo necesario o evitar obstáculos por parte de los #[em stakeholders] durante la ejecución y conclusión del proyecto. Las estrategias se desarrollan considerando el tipo de #[em stakeholder], los objetivos en los que está interesado, el nivel de interés y poder que puede ejercer en el proyecto y las acciones posibles que podría emprender para afectar tanto positiva como negativamente al proyecto.
           .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema4/img21.svg")
         .row.justify-content-between(titulo="Conclusiones")
@@ -315,17 +315,17 @@
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Categorización de #[em stakeholders] y estrategias de gestión de las expectativas
 
     p Como ya se había mencionado anteriormente, la matriz de stakholders es una herramienta muy útil que permite clasificar a los involucrados en el proyecto según sus niveles de interés e influencia, priorizando a los más importantes y desarrollando así las estrategias correspondientes para gestionar sus expectativas. De la misma manera, su clasificación puede cambiar durante la vida del proyecto. Así, aquellos que fueron inicialmente identificados con un alto nivel de influencia en el proyecto, pueden ser reclasificados a un nivel más bajo durante otras etapas de la vida del proyecto.
-    p La categorización de los #[em stakeholders] se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada #[em stakeholder] dentro del grupo para el cual se definen diferentes estrategias (figura 2).
+    p La categorización de los #[em stakeholders] se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada #[em stakeholder] dentro del grupo para el cual se definen diferentes estrategias (figura 6).
 
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2
+          h5 Figura 6
           span Ejemplo de matriz interés vs. influencia
       .col-lg-10.BGIMG01.p-4(data-aos="zoom-in")
         .row.justify-content-center
           .col-lg-10
-            img(src="@/assets/curso/tema4/img23.svg")
+            img(src="@/assets/curso/tema4/img23.svg" alt="Análisis de Stakeholders basado en el interés versus la influencia y qué estrategia se usa según su ubicación: colaborar, comunicar, satisfacer u observar.")
       .col-lg-10.BG08.p-2
         p.mb-0 Nota: tomado de Gardnet et al. (1986)
 
@@ -364,59 +364,59 @@
             .col-lg-8.order-lg-1.order-2
               .h4 1. Preparación
               ul.lista-ul--color.ms-2
-                li(style="margin-bottom: 2px")
+                li(style="margin-bottom: 2px").d-flex
                   i.fas.fa-caret-square-right(style="color: #FF6148")
-                  | El entrevistador debe documentarse e investigar la situación de la organización, analizando los documentos de la empresa disponible.
+                  p.mb-0 El entrevistador debe documentarse e investigar la situación de la organización, analizando los documentos de la empresa disponible.
               ul.lista-ul--color.ms-2
-                li(style="margin-bottom: 2px")
+                li(style="margin-bottom: 2px").d-flex
                   i.fas.fa-caret-square-right(style="color: #FF6148")
-                  | Se debe intentar minimizar el número de entrevistados, considerando las entrevistas de cortesía.
+                  p.mb-0 Se debe intentar minimizar el número de entrevistados, considerando las entrevistas de cortesía.
               ul.lista-ul--color.ms-2
-                li(style="margin-bottom: 2px")
+                li(style="margin-bottom: 2px").d-flex
                   i.fas.fa-caret-square-right(style="color: #FF6148")
-                  | Analizar el perfil de los entrevistados.
+                  p.mb-0 Analizar el perfil de los entrevistados.
               ul.lista-ul--color.ms-2
-                li(style="margin-bottom: 2px")
+                li(style="margin-bottom: 2px").d-flex
                   i.fas.fa-caret-square-right(style="color: #FF6148")
-                  | Definir el objetivo y el contenido de la entrevista.
+                  p.mb-0 Definir el objetivo y el contenido de la entrevista.
               ul.lista-ul--color.ms-2
-                li(style="margin-bottom: 2px")
+                li(style="margin-bottom: 2px").d-flex
                   i.fas.fa-caret-square-right(style="color: #FF6148")
-                  | Planificar el lugar y la hora en la que se va a desarrollar la entrevista (es conveniente realizarla en un lugar confortable).
+                  p.mb-0 Planificar el lugar y la hora en la que se va a desarrollar la entrevista (es conveniente realizarla en un lugar confortable).
               ul.lista-ul--color.ms-2
-                li(style="margin-bottom: 2px")
+                li(style="margin-bottom: 2px").d-flex
                   i.fas.fa-caret-square-right(style="color: #FF6148")
-                  | Algunos proponen enviar previamente el entrevistado un cuestionario y un pequeño documento de introducción al proyecto de desarrollo.
+                  p.mb-0 Algunos proponen enviar previamente el entrevistado un cuestionario y un pequeño documento de introducción al proyecto de desarrollo.
             .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
               img(src="@/assets/curso/tema4/img29.svg")
         .py-4.py-md-5(titulo="Realización" :icono="require('@/assets/curso/tema4/img27.svg')")
           .row.justify-content-center
             .col-lg-8.order-lg-1.order-2
               .h4 2. Realización
-              Dentro de la realización de las entrevistas se distinguen tres etapas, tal como se expone en Piattini et al. (1996):
+              p Dentro de la realización de las entrevistas se distinguen tres etapas, tal como se expone en Piattini et al. (1996):
               ol.lista-ol--cuadro
-                li 
+                li.d-flex 
                   .lista-ol--cuadro__vineta(styte="color: #000")
                     span a
                   p.mb-0 #[b Apertura]: presentarse e informar al entrevistado sobre la razón de la entrevista.
-                li 
+                li.d-flex 
                   .lista-ol--cuadro__vineta(styte="color: #000")
                     span b
                   p.mb-0  #[b Desarrollo]: cumplir las reglas del protocolo, hay que llegar a un acuerdo sobre cómo se va a registrar la información obtenida.
               p Durante esta fase se pueden emplear distintas técnicas:
               .BGR04.p-4.mb-4
                 ul.lista-ul--color.ms-2
-                  li(style="margin-bottom: 2px")
+                  li(style="margin-bottom: 2px").d-flex
                     i.fas.fa-caret-square-right(style="color: #FF6148")
-                    p.mb-0 #[b Preguntas abiertas]: también denominadas de libre contexto (Gause y Weinberg, 1989), estas preguntas no pueden responderse con un "sí" o un "no", permiten una mayor comunicación y evitan la sensación de interrogatorio. Por ejemplo, "¿Qué se hace para registrar un pedido?", "Dígame qué se debe hacer cuando un cliente pide una factura" o “¿Cómo se rellena un recibo?".
-                  li(style="margin-bottom: 2px")
+                    p.mb-0.mb-0 #[b Preguntas abiertas]: también denominadas de libre contexto (Gause y Weinberg, 1989), estas preguntas no pueden responderse con un "sí" o un "no", permiten una mayor comunicación y evitan la sensación de interrogatorio. Por ejemplo, "¿Qué se hace para registrar un pedido?", "Dígame qué se debe hacer cuando un cliente pide una factura" o “¿Cómo se rellena un recibo?".
+                  li(style="margin-bottom: 2px").d-flex
                     i.fas.fa-caret-square-right(style="color: #FF6148")
-                    p.mb-0 #[b Utilizar palabras apropiadas]: se deben evitar tecnicismos que no conozca el entrevistado y palabras o frases que puedan perturbar emocionalmente la comunicación (Goleman 1996, Goleman 1999).
-                  li(style="margin-bottom: 2px")
+                    p.mb-0.mb-0 #[b Utilizar palabras apropiadas]: se deben evitar tecnicismos que no conozca el entrevistado y palabras o frases que puedan perturbar emocionalmente la comunicación (Goleman 1996, Goleman 1999).
+                  li(style="margin-bottom: 2px").d-flex
                     i.fas.fa-caret-square-right(style="color: #FF6148")
-                    p.mb-0 #[b Mostrar interés en todo momento]: es fundamental cuidar la comunicación no verbal (Davis, 1985) durante la entrevista: tono de voz, movimiento, expresión facial.
+                    p.mb-0.mb-0 #[b Mostrar interés en todo momento]: es fundamental cuidar la comunicación no verbal (Davis, 1985) durante la entrevista: tono de voz, movimiento, expresión facial.
               ol.lista-ol--cuadro
-                li 
+                li.d-flex 
                   .lista-ol--cuadro__vineta(styte="color: #000")
                     span c
                   p.mb-0  #[b Terminación]: se termina recapitulando la entrevista agradeciendo el esfuerzo y dejando abierta la posibilidad de volver a contactar para aclarar conceptos o bien citándole para otra entrevista.
@@ -439,18 +439,18 @@
           div(titulo="Entrevista estructurada")
             p Las preguntas en esta entrevista se deciden, previamente, de acuerdo con el detalle de información requerida.
             ul.lista-ul--color.ms-2
-              li(style="margin-bottom: 2px")
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Recoge de forma sistemática y precisa la mayor información sobre los aspectos que quiere explorar.
-              li(style="margin-bottom: 2px")
+                p.mb-0 Recoge de forma sistemática y precisa la mayor información sobre los aspectos que quiere explorar.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Las preguntas son prefijadas y definidas, las respuestas son esperadas e incluso se le dan al entrevistado en forma de varias opciones.
-              li(style="margin-bottom: 2px")
+                p.mb-0 Las preguntas son prefijadas y definidas, las respuestas son esperadas e incluso se le dan al entrevistado en forma de varias opciones.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Las etapas son planificadas.
-              li(style="margin-bottom: 2px")
+                p.mb-0 Las etapas son planificadas.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | La interpretación de las respuestas se realiza de acuerdo con unos criterios establecidos.
+                p.mb-0 La interpretación de las respuestas se realiza de acuerdo con unos criterios establecidos.
             .row.justify-content-end.mb-4(data-aos="fade-left")
               .col-lg-5
                 a.anexo.mb-4(:href="obtenerLink('downloads/Anexo1.pdf')" target="_blank" style="background-color: #DAE0E3;")
@@ -461,21 +461,21 @@
           div(titulo="Entrevista semiestructurada")
             p Esta presenta un grado mayor de flexibilidad que la estructurada, debido a que parten de preguntas planeadas, que pueden ajustarse a los entrevistados. Su ventaja es la posibilidad de adaptarse a los sujetos con enormes posibilidades para motivar al interlocutor, aclarar términos, identificar ambigüedades y reducir formalismos.
             ul.lista-ul--color.ms-2
-              li(style="margin-bottom: 2px")
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Las preguntas, desarrollo e interpretación se planifican previamente, pero con un cierto grado de libertad de acción para abordar temas que pueden surgir durante la misma.
-              li(style="margin-bottom: 2px")
+                p.mb-0 Las preguntas, desarrollo e interpretación se planifican previamente, pero con un cierto grado de libertad de acción para abordar temas que pueden surgir durante la misma.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Se suele utilizar un protocolo para facilitar al entrevistador seguir un modelo preestablecido.
+                p.mb-0 Se suele utilizar un protocolo para facilitar al entrevistador seguir un modelo preestablecido.
           div(titulo="Entrevista no estructurada")
             p Las entrevistas no estructuradas suelen describirse como conversaciones mantenidas con un propósito en mente.
             ul.lista-ul--color.ms-2
-              li(style="margin-bottom: 2px")
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | No se estructura ni planifica previamente.
-              li(style="margin-bottom: 2px")
+                p.mb-0 No se estructura ni planifica previamente.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Es la más ágil y la que proporciona más información en general, pero requiere un cierto dominio por parte del entrevistador.
+                p.mb-0 Es la más ágil y la que proporciona más información en general, pero requiere un cierto dominio por parte del entrevistador.
             p En el material complementario se pueden revisar ejemplo de entrevistas.
       .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
         img(src="@/assets/curso/tema4/img32.svg")
@@ -511,13 +511,13 @@
           .col-2
             img(src="@/assets/curso/tema4/img35.svg")
         .h4.text-center Tipos de respuestas
-        p.text-center Las respuestas de escala son las más comunes en los cuestionarios de investigación ya que implican al participante en una valoración o evaluación de las respuestas objetivo por medio de varias opciones en las que tienen que marcar dentro de una escala la importancia de cada una. Esa escala de valoración indica diferentes grados en una categoría y puede ser de diversa naturaleza; por ejemplo, puede valorar una categoría indicando si es “#[em bueno]” o “#[em malo]”, “#[em frecuente]” o “#[em infrecuente]”, “#[em importante]” o “#[em poco importante]” o también pueden valorar opiniones: “#[em completamente de acuerdo]” o “#[em en desacuerdo]”. El número de opciones más común es el de cinco, por ser un número impar, ya que existe una tendencia generalizada a seleccionar la opción intermedia (Dornyei, 2010).
+        p.text-center Las respuestas de escala son las más comunes en los cuestionarios de investigación ya que implican al participante en una valoración o evaluación de las respuestas objetivo por medio de varias opciones en las que tienen que marcar dentro de una escala la importancia de cada una. Esa escala de valoración indica diferentes grados en una categoría y puede ser de diversa naturaleza; por ejemplo, puede valorar una categoría indicando si es “#[b bueno]” o “#[b malo]”, “#[b frecuente]” o “#[b infrecuente]”, “#[b importante]” o “#[b poco importante]” o también pueden valorar opiniones: “#[b completamente de acuerdo]” o “#[b en desacuerdo]”. El número de opciones más común es el de cinco, por ser un número impar, ya que existe una tendencia generalizada a seleccionar la opción intermedia (Dornyei, 2010).
 
     .row.justify-content-end.mb-4(data-aos="fade-left")
       .col-lg-5
         a.anexo.mb-4(href="https://www.youtube.com/watch?v=mwnQuUi9014&ab_channel=JibaroX" target="_blank" style="background-color: #DAE0E3;")
           .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
+            img(src="@/assets/template/icono-link.svg")
           .anexo__texto
             p #[b Anexo]. Tipos de preguntas.
     
@@ -533,43 +533,43 @@
         p Esta permite la obtención de datos para emprender una investigación de tipo cualitativo, no desde el punto de vista de lo que los sujetos dicen, sino que es la evidencia directa de lo que ve y percibe el investigador en un escenario de primera mano (Denscombe, 2010).
         p Por su parte, Selltiz (citado por Hernández, Fernández y Baptista, 2006, p. 229), al referirse a la observación, recomienda que para que esta se convierta en una técnica como tal, debe cumplir con cuatro condiciones:
         ol.lista-ol--cuadro
-          li 
+          li.d-flex 
             .lista-ol--cuadro__vineta(styte="color: #000")
               span 1
             | Debe servir a un objeto formulado de investigación.
-          li 
+          li.d-flex 
             .lista-ol--cuadro__vineta(styte="color: #000")
               span 2
             | Debe de ser planificada sistemáticamente.
-          li 
+          li.d-flex 
             .lista-ol--cuadro__vineta(styte="color: #000")
               span 3
             | Debe estar controlada y relacionada con proposiciones generales.
-          li 
+          li.d-flex 
             .lista-ol--cuadro__vineta(styte="color: #000")
               span 4
             | Debe ser sujeta a comprobaciones y controles de validez y fiabilidad.
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10.order-lg-1.order-2(data-aos="fade-right")
+      .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
         p De acuerdo con lo anterior, se puede asumir que la observación:
         ul.lista-ul--color.ms-2
-          li(style="margin-bottom: 2px")
-            i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Tiene la característica de seguir normas, reglas y procedimientos.
-          li(style="margin-bottom: 2px")
-            i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Permite a los sujetos y objetos establecer relaciones de manera directa.
-      .col-lg-1.col-2.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+          li(style="margin-bottom: 2px").d-flex
+            i.fas.fa-angle-right(style="color: #FF6148")
+            p.mb-0 Tiene la característica de seguir normas, reglas y procedimientos.
+          li(style="margin-bottom: 2px").d-flex
+            i.fas.fa-angle-right(style="color: #FF6148")
+            p.mb-0 Permite a los sujetos y objetos establecer relaciones de manera directa.
+        p Para el caso de obtención de requerimientos del #[em software] la observación nos sirve para estudiar el entorno de trabajo de los usuarios, clientes e interesados de proyecto (#[em stakeholders]) y para documentar la situación actual de procesos de negocio.
+        p En la siguiente figura, se pueden revisar los tipos de observación.
+      .col-lg-5.col-2.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img37.png")
 
-    p Para el caso de obtención de requerimientos del #[em software] la observación nos sirve para estudiar el entorno de trabajo de los usuarios, clientes e interesados de proyecto (#[em stakeholders]) y para documentar la situación actual de procesos de negocio.
-    p En la siguiente figura, se pueden revisar los tipos de observación.
 
     .row.justify-content-center.mb-4
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 3
+          h5 Figura 7
           span Tipos de observación
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema4/img38.svg")
@@ -585,15 +585,15 @@
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta(style="color: #000")
-              span 1
+              span(style="color: white").fw-bold 1
             | Datos y características de los sujetos a evaluar.
           li 
             .lista-ol--cuadro__vineta(style="color: #000")
-              span 2
+              span(style="color: white").fw-bold 2
             | Propósitos de la observación o de las observaciones a realizar.
           li 
             .lista-ol--cuadro__vineta(style="color: #000")
-              span 3
+              span(style="color: white").fw-bold 3
             | Temporalidad de la observación.
 
     .row.justify-content-start.mb-4(data-aos="fade-right")
@@ -623,7 +623,7 @@
             img(src="@/assets/curso/tema4/img41.svg")
           .col-lg-9
             p.mb-0 También denominada tormenta de ideas o incluso brainstorming. Faickney (1939) investigó sobre diferentes maneras de generar creatividad. Se percató de que la mejor manera de ser creativo en una empresa es a través de la interacción y el trabajo en equipo; todos juntos podían dar sus opiniones y sugerencias sobre un tema determinado. Creó de esta manera la lluvia de ideas.
-        .row.justify-content-center.align-items-center(titulo="Sesiones JAD (Joint Application Design)")
+        .row.justify-content-center.align-items-center(titulo="Sesiones JAD <em>(Joint Application Design)</em>")
           .col-lg-2.col-4.mb-lg-0.mb-4
             img(src="@/assets/curso/tema4/img42.svg")
           .col-lg-9
@@ -635,18 +635,18 @@
           .col-lg-9
             p Es un método de estructuración de un proceso de comunicación grupal que consiste en la selección de un grupo de expertos a los que se les pregunta su opinión frente a ciertas temáticas.
             ul.lista-ul--color.ms-2
-              li(style="margin-bottom: 2px")
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Fase uno. Formulación del problema: se define el campo de investigación.
-              li(style="margin-bottom: 2px")
+                p.mb-0 #[b Fase uno.] Formulación del problema: se define el campo de investigación.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Fase dos. Elección de expertos: el experto se elige según su preparación y su capacidad de proyección.
-              li(style="margin-bottom: 2px")
+                p.mb-0 #[b Fase dos.] Elección de expertos: el experto se elige según su preparación y su capacidad de proyección.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Fase tres. Elaboración de cuestionarios: las preguntas deben hacerse de acuerdo con la temática que se quiere obtener.
-              li(style="margin-bottom: 2px")
+                p.mb-0 #[b Fase tres.] Elaboración de cuestionarios: las preguntas deben hacerse de acuerdo con la temática que se quiere obtener.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Fase cuatro. Desarrollo y explotación de resultados: el cuestionario se entrega a los expertos para ser contestado por ellos.
+                p.mb-0 #[b Fase cuatro.] Desarrollo y explotación de resultados: el cuestionario se entrega a los expertos para ser contestado por ellos.
 
     separador
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -688,31 +688,31 @@
       .col-lg-8(data-aos="fade-left")
         p Para ejemplificar un proceso se puede emplear un verbo conjugado en infinitivo y que represente la función a realizar (administrar, gestionar, registrar, entre otros). A continuación, se presenta un ejemplo, en el cual se presenta un diagrama de casos de uso de la sistematización de un centro médico.
         ul.lista-ul--color.ms-2
-          li(style="margin-bottom: 2px")
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Administrar datos pacientes.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Administrar datos pacientes.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Administrar datos tratamientos.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Administrar datos tratamientos.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Gestionar citas.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Gestionar citas.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Generar reportes.
+            p.mb-0 Generar reportes.
 
+    .mb-4.d-flex
+      .d-flex.flex-wrap.px-4(style="background-color: #993A2B; border-radius: 25px; padding: 10px")
+        h4.col.mb-0.text-white(data-aos="fade-right") Representación gráfica
     .row.justify-content-center.mb-4
       .col-lg-10
-        .mb-4.d-flex
-          .d-flex.flex-wrap.px-4(style="background-color: #993A2B; border-radius: 25px; padding: 10px")
-            h4.col.mb-0.text-white(data-aos="fade-right") Representación gráfica
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 2
+          h5 Figura 7
           span Entradas, herramientas y técnicas, salidas
         .BGR09.p-4(data-aos="zoom-in")
           .row.justify-content-center
             .col-lg-10
-              img(src="@/assets/curso/tema4/img47.svg")
+              img(src="@/assets/curso/tema4/img47.svg" alt="Ejemplo entre un médico y un paciente. Este último solo accede a la gestión de citas y reportes, mientras que el médico también accede en la administración y tratamiento de datos.")
     
     .row.justify-content-center.mb-4
       .col-lg-7.mb-lg-0.mb-4(data-aos="fade-right")
@@ -753,15 +753,15 @@
             img(src="@/assets/curso/tema4/img49.svg")
           .col-lg-4
             ul.lista-ul--color
-              li(style="margin-bottom: 2px")
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Como &lt;rol&gt;
-              li(style="margin-bottom: 2px")
+                p.mb-0 Como &lt;rol&gt;
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Quiero &lt;eventos&gt;
-              li(style="margin-bottom: 2px")
+                p.mb-0 Quiero &lt;eventos&gt;
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Para &lt;funcionalidades&gt;
+                p.mb-0 Para &lt;funcionalidades&gt;
 
     p Así, el &lt;rol&gt; que se escoja que va a utilizar la aplicación #[em software], requiere de una &lt;Acción&gt; / &lt;evento&gt; que ocurra, porque se desea cubrir una &lt;funcionalidad&gt;. Corto y conciso, directo y claro.
     p En las siguientes figuras se presentan ejemplos de historias de usuario.
@@ -784,16 +784,16 @@
 
     p Como se mencionó anteriormente, las historias de usuario son una frase sencilla y concisa, sin embargo, eso no impide que se pueda abrir un diálogo (conversación) entre todos los miembros del equipo. De hecho, esta conversación se debe llevar a cabo para explicar mejor la propia historia de usuario y conseguir objetivos como:
     ul.lista-ul--color(data-aos="fade-right")
-      li(style="margin-bottom: 2px")
+      li(style="margin-bottom: 2px").d-flex
         i.fas.fa-caret-square-right(style="color: #FF6148")
-        | Detallar a mayor nivel como se realizará la solución.
-      li(style="margin-bottom: 2px")
+        p.mb-0 Detallar a mayor nivel como se realizará la solución.
+      li(style="margin-bottom: 2px").d-flex
         i.fas.fa-caret-square-right(style="color: #FF6148")
-        | Clarificar aspectos de valor, funcionamiento y técnicos.
-      li(style="margin-bottom: 2px")
+        p.mb-0 Clarificar aspectos de valor, funcionamiento y técnicos.
+      li(style="margin-bottom: 2px").d-flex
         i.fas.fa-caret-square-right(style="color: #FF6148")
-        | Resolver las dudas que aparezcan.
-    p Estas conversaciones llevarán a alcanzar acuerdos sobre los distintos puntos tratados, que quedarán reflejados en los criterios de aceptación y que permitirán validar cuando una historia de usuario está terminada.
+        p.mb-0 Resolver las dudas que aparezcan.
+    p.mb-5 Estas conversaciones llevarán a alcanzar acuerdos sobre los distintos puntos tratados, que quedarán reflejados en los criterios de aceptación y que permitirán validar cuando una historia de usuario está terminada.
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
@@ -918,7 +918,7 @@
         .h4 ¿Qué es un #[em Storyboard]?<br>
         p.mb-0 Los #[em storyboards] son un tipo de prototipos muy utilizados, #[b consiste básicamente en ir mostrando en una secuencia de imágenes un proceso, acción o ejercicio que se puede realizar en el sistema una vez terminado], las imágenes van mostrando la evolución del sistema conforme el usuario interactúa con el sistema.
 
-    .row.justify-content-between.align-items-center.mb-4
+    .row.justify-content-between.align-items-center.mb-0
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p Con esta técnica se pretende crear diferentes vistas del sistema en las primeras etapas de su implementación de la manera más rápida y barata posible [SUT02].
         p Una forma muy común de ejemplificar los #[em storyboards] es con las revistas de cómics, ya que van mostrando una secuencia de imágenes en cuadros con un orden establecido que permiten entender la línea de la historia contada. La técnica #[em storyboard] permite generar modelos o esquemas visuales como esbozos de interfaces gráficas de usuario (GUI).
@@ -926,31 +926,31 @@
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img53.png")
 
-    ul.lista-ul--color(data-aos="fade-right")
-      li(style="margin-bottom: 2px")
+    ul.lista-ul--color(data-aos="fade-right").mt-0
+      li(style="margin-bottom: 2px").d-flex
         i.fas.fa-caret-square-right(style="color: #FF6148")
-        | Se preserva el punto de vista del proceso del negocio.
-      li(style="margin-bottom: 2px")
+        p.mb-0 Se preserva el punto de vista del proceso del negocio.
+      li(style="margin-bottom: 2px").d-flex
         i.fas.fa-caret-square-right(style="color: #FF6148")
-        | Se puede validar un escenario.
-      li(style="margin-bottom: 2px")
+        p.mb-0 Se puede validar un escenario.
+      li(style="margin-bottom: 2px").d-flex
         i.fas.fa-caret-square-right(style="color: #FF6148")
-        | Se pueden validar escenarios integradores logrando una visión global.
-      li(style="margin-bottom: 2px")
+        p.mb-0 Se pueden validar escenarios integradores logrando una visión global.
+      li(style="margin-bottom: 2px").d-flex
         i.fas.fa-caret-square-right(style="color: #FF6148")
-        | Son más fáciles de comprender por el usuario.
-      li(style="margin-bottom: 2px")
+        p.mb-0 Son más fáciles de comprender por el usuario.
+      li(style="margin-bottom: 2px").d-flex
         i.fas.fa-caret-square-right(style="color: #FF6148")
-        | No genera falsas expectativas.
-      li(style="margin-bottom: 2px")
+        p.mb-0 No genera falsas expectativas.
+      li(style="margin-bottom: 2px").d-flex
         i.fas.fa-caret-square-right(style="color: #FF6148")
-        | El usuario sigue trabajando con herramientas conocidas.
-      li(style="margin-bottom: 2px")
+        p.mb-0 El usuario sigue trabajando con herramientas conocidas.
+      li(style="margin-bottom: 2px").d-flex
         i.fas.fa-caret-square-right(style="color: #FF6148")
-        | Son fáciles de mantener o adaptar a los cambios.
-      li(style="margin-bottom: 2px")
+        p.mb-0 Son fáciles de mantener o adaptar a los cambios.
+      li(style="margin-bottom: 2px").d-flex
         i.fas.fa-caret-square-right(style="color: #FF6148")
-        | Permiten incorporar modificaciones durante la validación.
+        p.mb-0 Permiten incorporar modificaciones durante la validación.
     
     p Las dos figuras siguientes muestran el ejemplo de un #[em storyboard] que representa un escenario de situación de vendedores de una empresa para explicar el cambio que sufrirá el trabajo, el primero representa la situación actual y el segundo como quedará con la implantación del sistema.
 
@@ -960,14 +960,14 @@
           h5 Figura 11
           span Escenario representado en formato de #[em storyboard] que representa una situación típica tal y como se realiza actualmente
         figure(data-aos="flip-right")
-          img(src="@/assets/curso/tema4/img54.jpg")
+          img(src="@/assets/curso/tema4/img54.jpg" alt="Dibujo tipo historieta en la que se cuenta el proceso de la muestra de catálogo de productos a un cliente de la forma tradicional.")
           figcaption Nota: Tomado de Granollers, Lorés y Perdrix (2002)
       .col-lg-5.col-10.mb-lg-0.mb-4
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-left")
           h5 Figura 12
           span Escenario representado en formato de #[em storyboard] que representa la misma situación anterior tal como quedará con la implementación del sistema
         figure(data-aos="flip-left")
-          img(src="@/assets/curso/tema4/img55.jpg")
+          img(src="@/assets/curso/tema4/img55.jpg" alt="Dibujo tipo historieta en la que se cuenta el proceso de la muestra de catálogo de productos a un cliente con la implementación de un sistema.")
           figcaption Nota: Tomado de Granollers, Lorés y Perdrix (2002)
 
     separador
@@ -988,53 +988,53 @@
     .row.mb-4
       .col-lg-4(data-aos="fade-right")        
         ul.lista-ul--color
-          li(style="margin-bottom: 2px")
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | ER win.
-          li(style="margin-bottom: 2px")
+            p.mb-0 ER win.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | ArgoUML.
-          li(style="margin-bottom: 2px")
+            p.mb-0 ArgoUML.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Easy Case.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Easy Case.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Oracle Designer.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Oracle Designer.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Power Designer.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Power Designer.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | System Architect.
-          li(style="margin-bottom: 2px")
+            p.mb-0 System Architect.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | SNAP.
-          li(style="margin-bottom: 2px")
+            p.mb-0 SNAP.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Gliffy (<a href="https://www.gliffy.com/" target="_blank" style="color: #2D679A">https://www.gliffy.com/</a>).
+            p.mb-0 Gliffy (<a href="https://www.gliffy.com/" target="_blank" style="color: #2D679A">https://www.gliffy.com/</a>).
       .col-lg-4(data-aos="fade-left")
         ul.lista-ul--color
-          li(style="margin-bottom: 2px")
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | MagicDraw.
-          li(style="margin-bottom: 2px")
+            p.mb-0 MagicDraw.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Lucidchart.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Lucidchart.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Papyrus Uml.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Papyrus Uml.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Modelio.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Modelio.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | StarUml.
-          li(style="margin-bottom: 2px")
+            p.mb-0 StarUml.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Dia.
-          li(style="margin-bottom: 2px")
+            p.mb-0 Dia.
+          li(style="margin-bottom: 2px").d-flex
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Mono Uml.
+            p.mb-0 Mono Uml.
     
     p A continuación, se realizará una descripción del top 5 de las más utilizadas.
 
@@ -1046,7 +1046,7 @@
           .col-lg-10.BG16.p-4
             .row.justify-content-center
               .col-lg-10
-                img(src="@/assets/curso/tema4/img57.jpg")
+                img(src="@/assets/curso/tema4/img57.jpg" alt="Captura de pantalla de la interfaz de usuario de la herramienta Gliffy")
           .col-lg-10.BG08.p-2
             p.mb-0 #[b Figura 13]. Herramienta Gliffy.
         .row.justify-content-center.py-3.py-md-4(titulo="ArgoUML")
@@ -1056,7 +1056,7 @@
           .col-lg-10.BG16.p-4
             .row.justify-content-center
               .col-lg-10
-                img(src="@/assets/curso/tema4/img58.jpg")
+                img(src="@/assets/curso/tema4/img58.jpg" alt="Captura de pantalla de la interfaz de usuario de la herramienta de modelado ArgoUML")
           .col-lg-10.BG08.p-2
             p.mb-0 #[b Figura 14]. Herramienta de modelado ArgoUML.
         .row.justify-content-center.py-3.py-md-4(titulo="MagicDraw")
@@ -1066,7 +1066,7 @@
           .col-lg-10.BG16.p-4
             .row.justify-content-center
               .col-lg-10
-                img(src="@/assets/curso/tema4/img59.jpg")
+                img(src="@/assets/curso/tema4/img59.jpg" alt="Captura de pantalla de la interfaz de usuario de la herramienta de modelado MagicDraw")
           .col-lg-10.BG08.p-2
             p.mb-0 #[b Figura 15]. Herramienta de modelado MagicDraw.
         .row.justify-content-center.py-3.py-md-4(titulo="StarUML")
@@ -1074,37 +1074,37 @@
             p Es una herramienta para el modelamiento de #[em software] basado en los estándares UML (Unified Modeling Language) y MDA (Model Driven Arquitecture).
             p Da soporte completo al diseño UML mediante el uso de:
             ul.lista-ul--color
-              li(style="margin-bottom: 2px")
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Diagrama de casos de uso.
-              li(style="margin-bottom: 2px")
+                p.mb-0 Diagrama de casos de uso.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Diagrama de clase.
-              li(style="margin-bottom: 2px")
+                p.mb-0 Diagrama de clase.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Diagrama de secuencia.
-              li(style="margin-bottom: 2px")
+                p.mb-0 Diagrama de secuencia.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Diagrama de colaboración.
-              li(style="margin-bottom: 2px")
+                p.mb-0 Diagrama de colaboración.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Diagrama de estados.
-              li(style="margin-bottom: 2px")
+                p.mb-0 Diagrama de estados.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Diagrama de actividad.
-              li(style="margin-bottom: 2px")
+                p.mb-0 Diagrama de actividad.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Diagrama de componentes.
-              li(style="margin-bottom: 2px")
+                p.mb-0 Diagrama de componentes.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Diagrama de despliegue.
-              li(style="margin-bottom: 2px")
+                p.mb-0 Diagrama de despliegue.
+              li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
-                | Diagrama de composición estructural (UML 2.0).
+                p.mb-0 Diagrama de composición estructural (UML 2.0).
           .col-lg-10.BG16.p-4
             .row.justify-content-center
               .col-lg-10
-                img(src="@/assets/curso/tema4/img60.jpg")
+                img(src="@/assets/curso/tema4/img60.jpg" alt="Captura de pantalla de la interfaz de usuario de la herramienta de modelado StarUML")
           .col-lg-10.BG08.p-2
             p.mb-0 #[b Figura 16]. Herramienta de modelado StarUML.
         .row.justify-content-center.py-3.py-md-4(titulo="Lucidchart")
@@ -1113,7 +1113,7 @@
           .col-lg-10.BG16.p-4
             .row.justify-content-center
               .col-lg-10
-                img(src="@/assets/curso/tema4/img61.jpg")
+                img(src="@/assets/curso/tema4/img61.jpg" alt="Captura de pantalla de la interfaz de usuario de la herramienta de modelado Lucidchart.")
           .col-lg-10.BG08.p-2
             p.mb-0 #[b Figura 17]. Herramienta de modelado Lucidchart.
 
