@@ -63,7 +63,7 @@
       .row.justify-content-center.mb-5
         .col-lg-8.d-none.d-lg-flex
           img(src="@/assets/curso/tema1/img05.svg")
-        .col-12.d-lg-none.d-flex
+        .col-5.d-lg-none.d-flex
           img(src="@/assets/curso/tema1/img06.svg")
         
     .mb-4.d-flex

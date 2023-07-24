@@ -297,7 +297,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
-        .row.justify-content-center.BGR03.p-5
+        .row.justify-content-center.BGR03.p-5.d-lg-block.d-none
           .col-9
             img(src="@/assets/curso/tema3/img10.svg")
       .col-lg-9(data-aos="fade-left")

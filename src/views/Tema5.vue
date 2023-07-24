@@ -15,8 +15,8 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/img01.svg')})`}")
-            .tarjeta-flip__contenido.p-xl-5.p-4
-              .BGR17A.p-2.mb-4(style="background-color: #fe9080")
+            .tarjeta-flip__contenido.p-xl-5.p-4(style="background-color: #fe9080")
+              .BGR17A.p-2.mb-4
                 h4.text-center.mb-0 Metodología rígida
               p.mb-0 Anteriormente para el desarrollo de un proyecto de #[em software] se utilizaba una metodología muy rígida en la que se llevaban a cabo procesos de identificación de necesidades, análisis y diseño, planificación, codificación, prueba piloto e implementación; fases que todavía se aplican pero que exigían grandes esfuerzos y se invertía muchísimo tiempo sobre todo en la etapa de planificación donde se debía documentar hasta el más mínimo detalle.
       .col-xl-4.col-md-6.col-8.mb-xl-0.mb-4(data-aos="flip-up")
@@ -24,8 +24,8 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/img02.svg')})`}")
-            .tarjeta-flip__contenido.p-xl-5.p-4
-              .BGR17A.p-2.mb-4(style="background-color: #fe9080")
+            .tarjeta-flip__contenido.p-xl-5.p-4(style="background-color: #fe9080")
+              .BGR17A.p-2.mb-4
                 h4.text-center.mb-0 Reprocesos
               p.mb-0 Toda esta rigurosidad se sustentaba en el argumento de que no se tuviera que hacer ningún reproceso y el producto liberado fuera de alta calidad. Entonces, con la cantidad de tiempo invertido se hacía casi imposible realizar modificaciones en los requisitos, pues tocaba empezar de cero con el levantamiento de la información, la planificación y la documentación para diseñar y desarrollar el producto nuevamente.
       .col-xl-4.col-md-6.col-8.mb-xl-0.mb-4(data-aos="fade-left")
@@ -33,8 +33,8 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/img03.svg')})`}")
-            .tarjeta-flip__contenido.p-xl-5.p-4
-              .BGR17A.p-2.mb-4(style="background-color: #fe9080")
+            .tarjeta-flip__contenido.p-xl-5.p-4(style="background-color: #fe9080")
+              .BGR17A.p-2.mb-4
                 h4.text-center.mb-0 Metodologías ágiles
               p.mb-0 Cuando se emprendían proyectos de desarrollo de #[em software] mucho más pequeños que exigían tiempos de respuesta cortos para la obtención de resultados, esta metodología se tornó completamente ineficiente pues se gastaba mucho tiempo y recursos en cada fase del proyecto y no se podían realizar cambios a los requisitos para mejorar el producto, por lo tanto empezaron a surgir nuevos métodos más ágiles con un enfoque iterativo es decir por bloques de tareas para llevar a cabo los requisitos de los usuarios teniendo en cuenta que estos pueden cambiar durante todo el proceso de desarrollo.
 

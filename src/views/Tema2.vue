@@ -6,17 +6,26 @@
       .titulo-principal__numero
         span 2
       h1 Técnicas de análisis de requisitos
-    
-    .row.justify-content-end.align-items-center.mb-5.mt-5
-      .col-lg-11.BGR03.p-4.mb-4
-        .row.justify-content-end.align-items-center
-          .col-lg-3.col-6.img-01.mb-lg-0.mb-4
-            figure(data-aos="fade-right")
-              img.img-02(src='@/assets/curso/tema2/img01.svg')
-          .col-lg-10
-            p.ms-lg-5.mb-0 El proceso de análisis de requisitos permite, principalmente, el estudio de las necesidades de los usuarios para definir requisitos del sistema por medio de la producción del documento de especificación de requisitos donde se describe lo que el sistema debe hacer, pero no el cómo. Así es como este proceso, además de involucrar un proceso de análisis, también requiere de la síntesis de la información existente.
-      .col-lg-9
-        p.ms-lg-5.mb-0 A continuación, se describen algunas técnicas que pueden ser utilizadas para entender y ordenar los requisitos identificados para su posterior redacción en un artefacto formal dependiendo del marco de desarrollo de #[em software] utilizado.
+    .d-lg-block.d-none
+      .row.justify-content-end.align-items-center.mb-5.mt-5
+        .col-lg-11.BGR03.p-4.mb-4
+          .row.justify-content-end.align-items-center
+            .col-lg-3.col-6.img-01.mb-lg-0.mb-4
+              figure(data-aos="fade-right").d-lg-block.d-none
+                img.img-02(src='@/assets/curso/tema2/img01.svg').m-auto.d-flex
+              figure(data-aos="fade-right").d-block.d-lg-none
+                img(src='@/assets/curso/tema2/img01.svg').m-auto.d-flex
+            .col-lg-10
+              p.ms-lg-5.mb-0 El proceso de análisis de requisitos permite, principalmente, el estudio de las necesidades de los usuarios para definir requisitos del sistema por medio de la producción del documento de especificación de requisitos donde se describe lo que el sistema debe hacer, pero no el cómo. Así es como este proceso, además de involucrar un proceso de análisis, también requiere de la síntesis de la información existente.
+        .col-lg-9
+          p.ms-lg-5.mb-0 A continuación, se describen algunas técnicas que pueden ser utilizadas para entender y ordenar los requisitos identificados para su posterior redacción en un artefacto formal dependiendo del marco de desarrollo de #[em software] utilizado.
+    .d-block.d-lg-none.tarjeta.p-4(style="background-color: #FFE5CF")
+      img(src='@/assets/curso/tema2/img01.svg' style='width: 300px ').m-auto.d-flex.mb-lg-0.mb-3
+      p El proceso de análisis de requisitos permite, principalmente, el estudio de las necesidades de los usuarios para definir requisitos del sistema por medio de la producción del documento de especificación de requisitos donde se describe lo que el sistema debe hacer, pero no el cómo. Así es como este proceso, además de involucrar un proceso de análisis, también requiere de la síntesis de la información existente.
+        br
+        br
+        | A continuación, se describen algunas técnicas que pueden ser utilizadas para entender y ordenar los requisitos identificados para su posterior redacción en un artefacto formal dependiendo del marco de desarrollo de #[em software] utilizado.
+      
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -427,7 +436,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
-        .row.justify-content-center.BGR03.p-5
+        .row.justify-content-center.BGR03.p-5.d-lg-block.d-none
           .col-9
             img(src="@/assets/curso/tema2/img21.svg")
       .col-lg-9(data-aos="fade-left")
