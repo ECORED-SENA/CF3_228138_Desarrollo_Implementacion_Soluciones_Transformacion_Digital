@@ -44,7 +44,7 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
-        p Como se mencionó anteriormene, las metodologías ágiles surgieron de la necesidad de proporcionar respuestas rápidas a los requerimientos de los proyectos, manteniendo flexibilidad frente a los cambios que puedan surgir o se puedan generar durante el proceso de desarrollo.
+        p Como se mencionó anteriormente, las metodologías ágiles surgieron de la necesidad de proporcionar respuestas rápidas a los requerimientos de los proyectos, manteniendo flexibilidad frente a los cambios que puedan surgir o se puedan generar durante el proceso de desarrollo.
         .BG13.p-4.mb-4
           p.mb-0 Se utilizan para gestionar proyectos donde el cliente no tiene claro todos los requisitos de este y por lo tanto no se puede definir el alcance desde el principio, igualmente cuando durante el desarrollo se cambia de opinión o se adicionan más requisitos.
         p.mb-0 Estas metodologías no solamente se utilizan en el sector de las TIC para el desarrollo de #[em software] y sistemas de información, también se pueden aplicar a cualquier sector productivo, proyecto que se quiera emprender o entorno donde se produzcan cambios de forma frecuente.
@@ -56,15 +56,15 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Tabla 1
-          span Metodologías ágiles vs Metodologías tradicionales
+          h5 Tabla 10
+          span Metodologías ágiles vs. Metodologías tradicionales
         
         .tabla-a.color-acento-contenido(data-aos="zoom-in")
-          table
+          table.wnew2
             thead(style="border-color: #993A2B")
               tr
                 th(style="background-color: #FF6148; width: 48%").text-center Metodologías Ágiles
-                th(style="background-color: #FF6148; width: 4%").text-center vs
+                th(style="background-color: #FF6148; width: 4%").text-center vs.
                 th(style="background-color: #FF6148; width: 48%").text-center Metodologías Tradicionales
             tbody
               tr
@@ -146,10 +146,10 @@
             tbody
               tr
                 td <i class="far fa-check-circle" style="color: #083142"></i> Paso 1: alista un cronómetro (celular o reloj).
-                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 1: igual a la Tarea#1.
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 1: igual a la Tarea #1.
               tr
                 td <i class="far fa-check-circle" style="color: #083142"></i> Paso 2: toma 6 monedas de cualquier valor.
-                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 2: igual a la Tarea#1
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 2: igual a la Tarea #1
               tr
                 td <i class="far fa-check-circle" style="color: #083142"></i> Paso 3: lánzalas al piso al mismo tiempo y activa el cronómetro.
                 td <i class="far fa-check-circle" style="color: #083142"></i> Paso 3: lanza la primera moneda y activa el cronómetro.
@@ -157,11 +157,11 @@
                 td <i class="far fa-check-circle" style="color: #083142"></i> Paso 4: anota en que cayó cada moneda (cara o cruz).
                 td <i class="far fa-check-circle" style="color: #083142"></i> Paso 4: anota en que cayó (cara o sello) la primera moneda y después lanza la segunda moneda y repites el proceso hasta completar la última.
               tr
-                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 5: cuando termines con la última moneda debes para el cronometro.
-                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 5: igual a la Tarea#1.
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 5: cuando termines con la última moneda debes para el cronómetro.
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 5: igual a la Tarea #1.
               tr
                 td <i class="far fa-check-circle" style="color: #083142"></i> Paso 6: registra el tiempo.
-                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 6: igual a la Tarea#1.
+                td <i class="far fa-check-circle" style="color: #083142"></i> Paso 6: igual a la Tarea #1.
 
     separador
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -170,20 +170,20 @@
     .cajon-b.color-secundario.cajon-end.p-3.mb-4
       .row.justify-content-between.align-items-center
         .col-lg-10.order-lg-1.order-2(data-aos="fade-right")
-          p.mb-0 SCRUM es una de las metodologías ágiles que determinan un marco de trabajo mediante el cual se pueden enfocar problemáticas y adaptar soluciones para entregar productos de la máxima calidad y valor posibles. Se basa en el control de procesos en el desarrollo de productos y se puede llevar a cabo en tres ciclos; pre game, game y pos game basado en los conocimiento y la experiencia de las personas que participan en ellos. 
+          p.mb-0 SCRUM es una de las metodologías ágiles que determinan un marco de trabajo mediante el cual se pueden enfocar problemáticas y adaptar soluciones para entregar productos de la máxima calidad y valor posibles. Se basa en el control de procesos en el desarrollo de productos y se puede llevar a cabo en tres ciclos; #[em pre game, game] y #[em pos game] basado en los conocimiento y la experiencia de las personas que participan en ellos. 
         .col-lg-1.col-2.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src="@/assets/curso/tema5/img20.svg")
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
         img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
-        h3.col.px-4.mb-0.text-white(data-aos="fade-right") #[em Pregame]
+        h3.col.px-4.mb-0.text-white(data-aos="fade-right") #[em Pre game]
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p Se realiza una lista ordenada de lo que es necesario para el desarrollo del producto y es la fuente de requisitos para la realización de los cambios, ya que se puede variar a medida que avanza el proceso y es ordenada porque se va desarrollando de acuerdo con las prioridades establecidas. Cada elemento de la lista contiene la visión del usuario sobre las funcionalidades que espera encontrar en el producto. 
         .BG04.p-4
-          p.mb-0 En este ciclo se seleccionan los Sprint (requisitos), se determinan los costos y los recursos para la construcción del producto, se hace un análisis general de lo que se debe entregar como producto final y se realiza un diseño del prototipo de este . 
+          p.mb-0 En este ciclo se seleccionan los #[em Sprint] (requisitos), se determinan los costos y los recursos para la construcción del producto, se hace un análisis general de lo que se debe entregar como producto final y se realiza un diseño del prototipo de este. 
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema5/img21.svg")
     
@@ -199,17 +199,17 @@
             .col-lg-6.col-9
               img(src="@/assets/curso/tema5/img22.svg")
         .col-lg-10(data-aos="fade-left")
-          p.mb-0 En este ciclo se desarrolla la lista de requisitos que se priorizan a través de una planificación; se realiza la lista de las tareas por llevar a cabo (iteraciones); se determina el tiempo de las iteraciones que es aproximadamente de una semana (1) por actividad hasta completar un máximo de cuatro (4) por iteración, es decir, 30 días y el equipo se organizan en parejas o en las personas que sean necesarias para completarla. Los miembros del equipo se auto organizan y establecen sus propios objetivos de acuerdo con el producto que debe entregar al finalizar la iteración, ver figura 1.
+          p.mb-0 En este ciclo se desarrolla la lista de requisitos que se priorizan a través de una planificación; se realiza la lista de las tareas por llevar a cabo (iteraciones); se determina el tiempo de las iteraciones que es aproximadamente de una semana (1) por actividad hasta completar un máximo de cuatro (4) por iteración, es decir, 30 días y el equipo se organizan en parejas o en las personas que sean necesarias para completarla. Los miembros del equipo se auto organizan y establecen sus propios objetivos de acuerdo con el producto que debe entregar al finalizar la iteración, ver figura 14.
         
     .row.justify-content-center.mb-4
       .col-lg-8.mb-4(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          h5 Figura 18
-          span Ciclo game - Proceso realizado en cada iteración del producto
+          h5 Figura 14.
+          span Ciclo #[em game] - Proceso realizado en cada iteración del producto
       .col-lg-6.p-4(data-aos="zoom-in")
         img(src="@/assets/curso/tema5/img23.svg" alt="La planificación de la iteración, la ejecución de tareas, la sincronización diaria, la revisión del producto y la retrospectiva son el ciclo game.")
 
-    p Después de #[b planificar la iteración] que algunos autores como Sánchez (2018) llaman Sprint, se comienza a #[b ejecutar cada tarea de la iteración]:
+    p Después de #[b planificar la iteración] que algunos autores como Sánchez (2018) llaman #[em Sprint], se comienza a #[b ejecutar cada tarea de la iteración]:
 
     PasosA.color-acento-contenido.mb-5(tipo="n")
       .row.justify-content-center
@@ -231,10 +231,10 @@
         .col-lg-4.col-8.order-lg-1.order-2(data-aos="fade-right")
           img(src="@/assets/curso/tema5/img25.png")
         .col-lg-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          p.mb-0 De acuerdo con las respuestas proporcionadas por los integrantes del equipo, el SCRUM manager (gestionador del proyecto) debe encargarse de hacer la inspección de los obstáculos y hacer las adaptaciones necesarias para eliminarlos, garantizando que el equipo pueda realizar las actividades para terminar la iteración.
+          p.mb-0 De acuerdo con las respuestas proporcionadas por los integrantes del equipo, el SCRUM #[em manager] (gestionador del proyecto) debe encargarse de hacer la inspección de los obstáculos y hacer las adaptaciones necesarias para eliminarlos, garantizando que el equipo pueda realizar las actividades para terminar la iteración.
       .row.justify-content-center
         .col-lg-8.mb-lg-0.mb-4(data-aos="fade-right")
-          p.mb-0 Después de cada superación de obstáculos y para terminar la iteración se hace una #[b revisión del producto] con lo cual se verifica el cumplimiento de los requisitos.Finalmente el día que se tiene previsto terminar la iteración, se hace nuevamente una reunión de 1 o 2 horas con el cliente para realizar una demostración del cumplimiento de los requisitos plasmados en el producto incremental, resultado de la iteración completada.
+          p.mb-0 Después de cada superación de obstáculos y para terminar la iteración se hace una #[b revisión del producto] con lo cual se verifica el cumplimiento de los requisitos. Finalmente el día que se tiene previsto terminar la iteración, se hace nuevamente una reunión de 1 o 2 horas con el cliente para realizar una demostración del cumplimiento de los requisitos plasmados en el producto incremental, resultado de la iteración completada.
         .col-lg-4.col-8(data-aos="fade-left")
           img(src="@/assets/curso/tema5/img26.png")
       .row.justify-content-center
@@ -272,9 +272,9 @@
             img(src='@/assets/curso/tema5/img30.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.BGR18A.hg-05.p-4
             h4.ms-4 #[em Scrum team]
-            p.ms-4.mb-0 Es el equipo encargado de ejecutar las tareas de cada iteración para entregar un incremento del producto de acuerdo con las especificaciones entregadas por el Product Owner. Organizan y gestionan su propio trabajo y están conformados por el número de personas necesarias para lograr el cumplimiento de los objetivos trazados.
+            p.ms-4.mb-0 Es el equipo encargado de ejecutar las tareas de cada iteración para entregar un incremento del producto de acuerdo con las especificaciones entregadas por el #[em Product Owner]. Organizan y gestionan su propio trabajo y están conformados por el número de personas necesarias para lograr el cumplimiento de los objetivos trazados.
 
-    p Para complementar el tema, se recomienda realizar la lectura #[b Metodología Scrum], la cual e encuentra en el material complementario.
+    p Para complementar el tema, se recomienda realizar la lectura #[b Metodología Scrum], la cual se encuentra en el material complementario.
     
     separador
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -300,7 +300,7 @@
                 | Los equipos de trabajo deben ser multidisciplinar y máximo de siete (7) integrantes.
               li(style="margin-bottom: 2px")
                 i.far.fa-check-circle(style="color: #FF6148")
-                | Los proyectos por desarrollar deben ser pequeños .
+                | Los proyectos por desarrollar deben ser pequeños.
               li(style="margin-bottom: 2px")
                 i.far.fa-check-circle(style="color: #FF6148")
                 | El tiempo de ejecución de un proyecto debe ser menor a un año.
@@ -327,7 +327,7 @@
             p.mb-0 Las especificaciones del proyecto, que este caso es el desarrollo de un videojuego, es la definición de todos los requisitos y funcionalidades que tendrá al igual que su priorización.
           .BGR19A.p-3(x="18%" y="35%" numero="+")
             .h5.mb-2 Fase 3 Elaboración
-            p En esta etapa se refinan los requisitos seleccionándolos y priorizándolos de nuevo para comenzar con el desarrollo de la iteración; se monitorea el cumpliendo de los objetivos de la iteración aplicando técnicas de evaluación definidas con anterioridad.
+            p En esta etapa se refinan los requisitos seleccionándolos y priorizándolos de nuevo para comenzar con el desarrollo de la iteración; se monitorea el cumplimiento de los objetivos de la iteración aplicando técnicas de evaluación definidas con anterioridad.
             p.mb-0 Para cerrar la iteración se le muestra al cliente lo obtenido, se da por culminada la iteración y se planifica la siguiente.
           .BGR19A.p-3(x="18%" y="61%" numero="+")
             .h5.mb-2 Fase 4 Beta
@@ -351,7 +351,7 @@
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema5/img34.svg")
 
-    p Para complementar el aprendizaje de este tema, se recomienda realizar la lectura #[b SUM para el desarrollo de video juegos], la cual se encuentra en el material complementario.
+    p Para complementar el aprendizaje de este tema, se recomienda realizar la lectura #[b SUM para el desarrollo de videojuegos], la cual se encuentra en el material complementario.
 
 </template>
 

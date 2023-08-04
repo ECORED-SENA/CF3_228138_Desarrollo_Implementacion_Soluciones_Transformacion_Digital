@@ -25,8 +25,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
         LineaTiempoD.color-acento-contenido
-          p(numero="1" titulo="Verbal") Consiste en la comunicación por medio del uso de las palabras entre los individuos que se comunican. Se pude tener una comunicación verbal de manera oral o escrita. En la actualidad, es muy común ver este tipo de comunicación a través de los medios digitales.
-          p(numero="2" titulo="No Verbal") Es el tipo de comunicación que se realiza sin hacer uso de las palabras, por ejemplo, por medio de los gestos, expresiones faciales, movimientos del cuerpo y las extremidades. En esta intervienen las emociones, y los estado de ánimo.
+          p(numero="1" titulo="Verbal") Consiste en la comunicación por medio del uso de las palabras entre los individuos que se comunican. Se puede tener una comunicación verbal de manera oral o escrita. En la actualidad, es muy común ver este tipo de comunicación a través de los medios digitales.
+          p(numero="2" titulo="No Verbal") Es el tipo de comunicación que se realiza sin hacer uso de las palabras, por ejemplo, por medio de los gestos, expresiones faciales, movimientos del cuerpo y las extremidades. En esta intervienen las emociones, y los estados de ánimo.
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema1/img02.svg")     
 
@@ -75,7 +75,7 @@
         .row.justify-content-center
           .col-lg-10
             p Consiste en las buenas prácticas para el adecuado manejo de la información dentro de una organización, en el desarrollo de una actividad, proceso o de un proyecto.
-            p Existen diversas técnicas para un adecuado manejo de información, a continuación, se listan algunas en relación a la gestión de servicios en la nube.
+            p Existen diversas técnicas para un adecuado manejo de información, a continuación, se listan algunas con relación a la gestión de servicios en la nube.
           .col-lg-8
             img(src="@/assets/curso/tema1/img07.svg")
         .row.justify-content-center.align-items-center
@@ -115,7 +115,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-10.mb-4
             .tarjeta.color-secundario.rounded-pill.p-3.d-inline-block.mb-3
-              h4.mb-0.mx-2 Documentación
+              h4.mb-0.mx-2 Documentación ordenada
           .col-lg-6.mb-lg-0.mb-4
             p Documentación ordenada según los tipos. Corresponde a los documentos de procesos o procedimiento, manuales, instructivos, formatos, registros, actas.
           .col-lg-4.col-8
@@ -123,7 +123,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-10.mb-4
             .tarjeta.color-secundario.rounded-pill.p-3.d-inline-block.mb-3
-              h4.mb-0.mx-2 Confidencialidad, integridad y desponibilidad.
+              h4.mb-0.mx-2 Confidencialidad, integridad y disponibilidad
           .col-lg-6.mb-lg-0.mb-4
             p Corresponde a un objetivo de la norma ISO/IEC 27001:2013. 
             p.mb-0 Asegurar el uso apropiado y eficaz de la criptografía para proteger la confidencialidad, la autenticidad y/o la integridad de la información. 

@@ -45,60 +45,8 @@
       .row.justify-content-between.align-items-center
         .col-lg-10.order-lg-1.order-2(data-aos="fade-right")
           p La clasificación y naturaleza de la información para el desarrollo de proyectos de transformación digital depende de cada proyecto específico y de quiénes participan de este. Los participantes definen también el tipo de información previa para el desarrollo del proyecto, que involucre conocimiento y digitalización del proceso.
-          p.mb-0 Los aspectos clave para la clasificación de la información y requerimientos son:
         .col-lg-1.col-2.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src="@/assets/curso/tema7/img07.svg")
-        
-    .BGR02.p-4.mb-4(data-aos="zoom-out")
-      SlyderA(tipo="b")
-        .row.justify-content-center
-          .col-lg-6.order-lg-1.order-2
-            .h4 Cuantificable en términos de medición
-            p Se debe realizar una declaración cuantificable, que permita la medición y verificación del logro de los objetivos propuestos.
-          .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema7/img08.svg")
-        .row.justify-content-center
-          .col-lg-6.order-lg-1.order-2
-            .h4 Completitud
-            p Los requerimientos deben fijar todas las propiedades y restricciones, para asegurar que no falten referencias, definiciones o funciones específicas.
-          .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema7/img09.svg")
-        .row.justify-content-center
-          .col-lg-6.order-lg-1.order-2
-            .h4 Validez o corrección
-            p Buscar unificar el significado de cada requerimiento. A menudo, implica el cumplimiento de políticas, leyes y normas técnicas.
-          .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema7/img10.svg")
-        .row.justify-content-center
-          .col-lg-6.order-lg-1.order-2
-            .h4 Consistencia
-            p Se deben involucrar los interesados, con el fin de superar las contradicciones a través de la negociación y priorización; se deben resolver los conflictos y llegar a acuerdos.
-          .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema7/img11.svg")
-        .row.justify-content-center
-          .col-lg-6.order-lg-1.order-2
-            .h4 Unicidad
-            p Al finalizar la definición del requisito, las palabras escritas en las declaraciones deben significar lo mismo para todo el grupo de interesados. Un glosario elimina ambigüedades semánticas y unifica definiciones.
-          .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema7/img12.svg")
-        .row.justify-content-center
-          .col-lg-6.order-lg-1.order-2
-            .h4 Pertinencia
-            p Es fundamental definir claramente el problema a solucionar; los requerimientos deben ser relevantes para las necesidades de los patrocinadores, sin llegar a restringir al equipo de trabajo.
-          .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema7/img13.svg")
-        .row.justify-content-center
-          .col-lg-6.order-lg-1.order-2
-            .h4 Factibilidad
-            p Los requisitos deben especificarse para que puedan implementarse utilizando los recursos disponibles, dentro del presupuesto y cronograma.
-          .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema7/img14.svg")
-        .row.justify-content-center
-          .col-lg-6.order-lg-1.order-2
-            .h4 Trazabilidad
-            p La trazabilidad de los cambios ayuda a identificar su impacto y propagación en otras partes del #[em software].
-          .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema7/img15.svg")
 
     separador
     #t_7_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")

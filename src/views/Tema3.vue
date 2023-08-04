@@ -37,12 +37,12 @@
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema3/img03.png")
 
-    p La siguiente tabla muestra la estructura base de un documento SRS, indicando cuáles son los apartados principales.
+    p A continuación, se presenta la estructura base de un documento SRS, indicando cuáles son los apartados principales.
 
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Figura 2
+          h5 Figura 2.
           span Estructura base de un documento SRS
       .col-lg-6.BG08.p-4(data-aos="zoom-in")
         .h5 1. Introducción
@@ -68,7 +68,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Tabla 7
+          h5 Tabla 6
           span Ejemplos de SRS diligenciados
         
         .tabla-a.color-acento-contenido(data-aos="zoom-in")
@@ -82,11 +82,8 @@
                 th(style="background-color: #F6F6F6;").text-center Sistema Integral Académico
                 td(style="background-color: #F6F6F6;").text-center <a href="https://bit.ly/2Pzw80U" target="_blank" style="color: #2D679A">bit.ly/2Pzw80U</a>
               tr
-                th(style="background-color: #FFF;").text-center Sistema de Información de Seminarios Web
-                td(style="background-color: #FFF;").text-center <a href="https://www.javerianacali.edu.co/centro-escritura/recursos/manual-apa-7a-edicion" target="_blank" style="color: #2D679A">javerianacali.edu.co</a>
-              tr
-                th(style="background-color: #F6F6F6;").text-center Sistema de Estacionamiento Tarifado
-                td(style="background-color: #F6F6F6;").text-center <a href="https://bit.ly/3syWvmd" target="_blank" style="color: #2D679A">bit.ly/3syWvmd</a>
+                th(style="background-color: #FFF;").text-center Sistema de Estacionamiento Tarifado
+                td(style="background-color: #FFF;").text-center <a href="https://bit.ly/3syWvmd" target="_blank" style="color: #2D679A">bit.ly/3syWvmd</a>
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -122,7 +119,7 @@
               | Referencias a normas que lo conforman.
             li
               i.fas.fa-database(style="color: #FF6148")
-              | Clarificación de la terminología, lo que es muy valioso para cuando se quiere establecer nuevos. procesos de ingeniería de requerimientos en una empresa.
+              | Clarificación de la terminología, lo que es muy valioso para cuando se quiere establecer nuevos procesos de ingeniería de requerimientos en una empresa.
             li
               i.fas.fa-database(style="color: #FF6148")
               | Clarificación de los conceptos y procesos.
@@ -231,7 +228,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Tabla 8
+          h5 Tabla 7
           span Estructura base de un documento de historia de usuario
         
         .tabla-a.color-acento-contenido(data-aos="zoom-in")
@@ -290,7 +287,7 @@
       .col-lg-7(data-aos="fade-right").mb-lg-0.mb-3
         .bloque-texto-c.color-primario.p-4
           i.fas.fa-quote-right
-          h4.mb-2 El marco de trabajo Scrum está soportado en un proceso de construcción iterativo e incremental evolutivo, en el que se identifican tres roles principales: el equipo de trabajo (team) conformado por los desarrolladores, diseñadores, personal de calidad y de infraestructura requerido para la construcción del producto de #[em software]; el scrum master que realizan funciones parecidas a las de un director de proyecto, pero más enfocados en garantizar que el equipo de trabajo tenga todas las herramientas y recursos necesarios para el desarrollo de su trabajo; y, finalmente, el dueño del producto (product owner) que se convierte en un representante del cliente y quien es el único encargado de la gestión de requisitos del proyecto.
+          h4.mb-2 El marco de trabajo Scrum está soportado en un proceso de construcción iterativo e incremental evolutivo, en el que se identifican tres roles principales: el equipo de trabajo (#[em team]) conformado por los desarrolladores, diseñadores, personal de calidad y de infraestructura requerido para la construcción del producto de #[em software]; el #[em scrum master] que realizan funciones parecidas a las de un director de proyecto, pero más enfocados en garantizar que el equipo de trabajo tenga todas las herramientas y recursos necesarios para el desarrollo de su trabajo; y, finalmente, el dueño del producto (product owner) que se convierte en un representante del cliente y quien es el único encargado de la gestión de requisitos del proyecto.
           p ScrumStudy, 2021.
       .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema3/img09.png")
@@ -301,8 +298,8 @@
           .col-9
             img(src="@/assets/curso/tema3/img10.svg")
       .col-lg-9(data-aos="fade-left")
-        p #[b Scrum] establece el concepto de #[b sprint] para referirse a una iteración que contempla tiempos fijos entre 2 y 4 semanas dependiendo del equipo de trabajo, durante este tiempo se incluye la planeación del #[b sprint], donde se definen los requerimientos a desarrollar en ese periodo de tiempo, una fase de construcción del producto y, finalmente, un proceso de despliegue para poder hacer la respectiva demostración de lo construido al final de iteración en reuniones de revisión; en este marco de trabajo se redefine el concepto de requerimiento hecho y normalmente va mucho más allá de construir el código, por lo general, se incluyen procesos de validación con pruebas unitarias y pruebas de integración.
-        p.mb-0 El artefacto mediante el cual se condensan todos los requerimientos del sistema se denomina #[b pila de producto (product backlog)], la cual es una lista ordenada por prioridad de todos los requerimientos del sistema generalmente descritos en la forma de #[b historias de usuario].  
+        p #[b Scrum] establece el concepto de #[b #[em sprint]] para referirse a una iteración que contempla tiempos fijos entre 2 y 4 semanas dependiendo del equipo de trabajo, durante este tiempo se incluye la planeación del #[b #[em sprint]], donde se definen los requerimientos a desarrollar en ese periodo de tiempo, una fase de construcción del producto y, finalmente, un proceso de despliegue para poder hacer la respectiva demostración de lo construido al final de iteración en reuniones de revisión; en este marco de trabajo se redefine el concepto de requerimiento hecho y normalmente va mucho más allá de construir el código, por lo general, se incluyen procesos de validación con pruebas unitarias y pruebas de integración.
+        p.mb-0 El artefacto mediante el cual se condensan todos los requerimientos del sistema se denomina #[b pila de producto (#[em product backlog])], la cual es una lista ordenada por prioridad de todos los requerimientos del sistema generalmente descritos en la forma de #[b historias de usuario].  
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
@@ -310,13 +307,13 @@
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left(style="font-size: 2em")
-            h4.mb-0 Scrum, siendo un marco de trabajo ágil, no requiere para su funcionamiento que todas las historias de usuario de la pila de producto estén detalladas, pero sí, por lo menos, las de mayor prioridad para poder iniciar el trabajo con el equipo en sus respectivos sprints.<br>
+            h4.mb-0 Scrum, siendo un marco de trabajo ágil, no requiere para su funcionamiento que todas las historias de usuario de la pila de producto estén detalladas, pero sí, por lo menos, las de mayor prioridad para poder iniciar el trabajo con el equipo en sus respectivos #[em sprints].<br>
             p ScrumStudy, 2021.
             i.fas.fa-quote-right(style="font-size: 2em")
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema3/img11.svg")
 
-    p Al inicio de cada sprint se realiza el proceso de planeación que involucra principalmente tres tareas:
+    p Al inicio de cada #[em sprint] se realiza el proceso de planeación que involucra principalmente tres tareas:
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
@@ -328,7 +325,7 @@
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/img13.svg' alt='AvatarTop')
           .BGR11.hg-03.p-4
-            p.mt-5.mb-0 Selección de las historias d e usuario a desarrollar durante al sprint tomando como referencia la prioridad y el valor del esfuerzo asociado a cada historia. Esto genera un artefacto llamado pila del sprint (sprint backlog) que lista los requerimientos descritos como historias de usuario a ser realizadas y evaluadas en el sprint.
+            p.mt-5.mb-0 Selección de las historias de usuario a desarrollar durante el #[em sprint] tomando como referencia la prioridad y el valor del esfuerzo asociado a cada historia. Esto genera un artefacto llamado pila del #[em sprint] (#[em sprint backlog]) que lista los requerimientos descritos como historias de usuario a ser realizadas y evaluadas en el #[em sprint].
       .col-lg-4.col-8(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/img14.svg' alt='AvatarTop')
@@ -338,8 +335,8 @@
     p A continuación, se expone una figura en la que se representan los artefactos generados dentro del marco de trabajo Scrum y que permiten la gestión de los requisitos y el evento desde el cual se construye inicialmente.
 
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-      h5 Figura 3
-      span Pila de producto vs. pila del Sprint
+      h5 Figura 3.
+      span Pila de producto vs. pila del #[em Sprint]
 
     .row.justify-content-center(data-aos="zoom-in")
       .col-lg-10
@@ -422,14 +419,14 @@
           .col-9
             img(src="@/assets/curso/tema3/img19.svg")
       .col-lg-10(data-aos="fade-left")
-        p Tal vez la herramienta más conocida que permite implementar los principios de Kanban es el tablero Kanban, el cual permite mapear y visualizar el flujo de trabajo.Este se divide en columnas a través de las cuales se pueden visualizar cada una de las fases del proceso; las filas del tablero representan los diferentes tipos de actividades específicas que se desarrollan en el marco del proyecto.
+        p Tal vez la herramienta más conocida que permite implementar los principios de Kanban es el tablero Kanban, el cual permite mapear y visualizar el flujo de trabajo. Este se divide en columnas a través de las cuales se pueden visualizar cada una de las fases del proceso; las filas del tablero representan los diferentes tipos de actividades específicas que se desarrollan en el marco del proyecto.
         p Normalmente el tablero tiene #[b tres secciones] que representan el estado de cada una de las tareas: #[b por hacer, en proceso, hecho].
         p.mb-0 Cada equipo de trabajo puede realizar un mapeo más detallado de su proceso y agregar tanta sección como considere pertinente, como se muestra en la siguiente figura.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 4
+          h5 Figura 4.
           span Tablero Kanban
         .BG08.p-4(data-aos="zoom-in")
           .row.justify-content-center

@@ -174,11 +174,11 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
           h5 Tabla 2
-          span Tabla de referencia para la técnica urgente | Nota: Tomado de Porfirio (2021)
+          span Tabla de referencia para la técnica urgente
         
         .tabla-a.color-acento-contenido(data-aos="zoom-in")
           table
-            caption Nota: Tomado de Porfirio (2021)
+            caption Nota. Tomado de Porfirio (2021)
             thead(style="border-color: transparent")   
             tbody
               tr
@@ -311,7 +311,7 @@
           .row.justify-content-center.mb-3
             .col-6
               img(src='@/assets/curso/tema2/img14.svg')
-          p.text-center.mb-0 #[b W]: indica una funcionalidad que no estará por ahora, de pronto más adelante (#[em Wont]).
+          p.text-center.mb-0 #[b W]: indica una funcionalidad que no estará por ahora, de pronto más adelante (#[em Won´t]).
 
     p Los requerimientos son priorizados utilizando el siguiente orden: primero los que tienen etiqueta #[b M], luego los requerimientos con etiqueta #[b S], después aquellos con #[b C] y, finalmente, los etiquetados como #[b W].
    
@@ -372,7 +372,7 @@
           span Ejemplo de aplicación técnica de matriz de priorización
         
         .tabla-a.color-acento-contenido(data-aos="zoom-in")
-          table
+          table.wnew
             thead(style="border-color: transparent")
               tr
                 th(style="background-color: #FF6148;" rowspan="2").text-center Requerimiento
@@ -380,10 +380,10 @@
                 th(style="background-color: #24CB9F;").text-center Resultado
                 th(style="background-color: #FF6148;" rowspan="2").text-center Ranking
               tr
-                th(style="background-color: #FF6148;").text-center Conversión 30%
-                th(style="background-color: #FF6148;").text-center Satisfacción de usuario 40%
-                th(style="background-color: #FF6148;").text-center Retención 30%
-                th(style="background-color: #FF6148;").text-center 100%
+                th(style="background-color: #FF6148;").text-center Conversión 30 %
+                th(style="background-color: #FF6148;").text-center Satisfacción de usuario 40 %
+                th(style="background-color: #FF6148;").text-center Retención 30 %
+                th(style="background-color: #FF6148;").text-center 100 %
             tbody    
               tr
                 th(style="background-color: #F6F6F6;").text-center R01
@@ -416,7 +416,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        p Suponiendo las dimensiones de conversión con un peso porcentual del 30%, la satisfacción del cliente con un peso porcentual del 40% y la retención de clientes con peso porcentual del 30%, cada uno de los requerimientos (R01-R04) son evaluados en una escala de 0 a 10, a los cuales se les aplica el cálculo de acuerdo con el valor porcentual de cada dimensión evaluada y el resultado se obtendría de la sumatoria de los valores parciales de cada dimensión, con lo cual los mayores valores totales obtenidos serán priorizados sobre los de menor valor.
+        p Suponiendo las dimensiones de conversión con un peso porcentual del 30 %, la satisfacción del cliente con un peso porcentual del 40 % y la retención de clientes con peso porcentual del 30 %, cada uno de los requerimientos (R01-R04) son evaluados en una escala de 0 a 10, a los cuales se les aplica el cálculo de acuerdo con el valor porcentual de cada dimensión evaluada y el resultado se obtendría de la sumatoria de los valores parciales de cada dimensión, con lo cual los mayores valores totales obtenidos serán priorizados sobre los de menor valor.
         p.mb-0 Esta técnica sigue siendo muy subjetiva al igual que la técnica de juicio de expertos, aunque quedan claros cuáles son los criterios de evaluación utilizados para determinar la prioridad de los requisitos.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema2/img19.svg")
@@ -443,7 +443,7 @@
         p Este es un instrumento clave para el responsable del proyecto, en especial en el proceso de seguimiento y control de cambios, ya que permite analizar qué requerimientos, eventualmente, convendría modificar, eliminar o añadir; así, se puede ajustar la planificación de tareas pendientes del proyecto. También permite identificar inconsistencias entre los requerimientos y los beneficios que se esperan alcanzar, tener una visualización rápida de los requisitos que han sido abordados y cuáles están pendientes por realizar y, por lo tanto, qué entregables están próximos a producirse y cuáles todavía requieren de mayor tiempo.
         p.mb-0 La estructura de la matriz de trazabilidad se puede construir en una hoja de cálculo, en ella se relacionan todos los requisitos y las metas a alcanzar junto con una serie de valores complementarios que aportan información y coherencia a los vínculos generados.
     
-    p Cada organización es responsable de adaptar la matriz de correlación a sus necesidades particulares; en la siguiente figura se propone el contenido base de una matriz de correlación dividida por secciones.
+    p Cada organización es responsable de adaptar la matriz de correlación a sus necesidades particulares; a continuación, se propone el contenido base de una matriz de correlación dividida por secciones:
 
     .row.justify-content-center.mb-4(data-aos="zoom-out")
       TabsC.color-acento-contenido
@@ -593,7 +593,7 @@
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left(style="font-size: 2em")
-            h4.mb-0 Esta estrategia consiste en definir los requerimientos como una relación de entradas y salidas de un sistema. Normalmente, estos requerimientos se definen de manera muy general y poco detallada y luego empieza a descomponerse en funcionalidades y subfuncionalidades un poco más detallados con el ánimo de analizarlas individualmente hasta lograr un nivel de detalle adecuado para el proyecto, a esta estructura se le conoce como top-down; el resultado es una estructura jerárquica.<br>
+            h4.mb-0 Esta estrategia consiste en definir los requerimientos como una relación de entradas y salidas de un sistema. Normalmente, estos requerimientos se definen de manera muy general y poco detallada y luego empieza a descomponerse en funcionalidades y subfuncionalidades un poco más detallados con el ánimo de analizarlas individualmente hasta lograr un nivel de detalle adecuado para el proyecto, a esta estructura se le conoce como #[em top-down]; el resultado es una estructura jerárquica.<br>
             p Pantaleo, 2018.
             i.fas.fa-quote-right(style="font-size: 2em")
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
@@ -602,7 +602,7 @@
     p La descomposición funcional se realiza, por lo general, para identificar y entender los componentes o partes que constituyen un todo; en este proceso es vital identificar las interacciones entre componentes. A continuación, se expone un ejemplo gráfico sobre esta descomposición funcional.
 
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-      h5 Figura 1
+      h5 Figura 1.
       span Ejemplo de descomposición funcional de un sistema de gestión comercialización de productos (fragmento).
 
     .BG06.p-4(data-aos="zoom-in")

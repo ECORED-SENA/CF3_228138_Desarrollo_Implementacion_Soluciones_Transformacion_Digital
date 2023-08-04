@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'El componente formativo está orientado al conocimiento de la empresa, sus procesos, necesidades y la manera técnica metodológica de recopilar requisitos para la solución y mejora de procesos empresariales empleando la tecnología y la transformación digital.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -53,7 +53,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Matrices de trazabilidad',
+            titulo: 'Matriz de trazabilidad',
             hash: 't_2_2',
           },
           {
@@ -87,7 +87,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '3.3',
             titulo:
-              'La especificación de requisitos a través de métodos y metodologías ágiles',
+              'La especificación de requisitos a través de marcos de trabajo ágiles',
             hash: 't_3_3',
           },
           {
@@ -155,6 +155,12 @@ export default {
             numero: '5.2',
             titulo: 'Metodología SCRUM',
             hash: 't_5_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.3',
+            titulo: 'Metodología SUM',
+            hash: 't_5_3',
           },
         ],
       },
@@ -243,21 +249,21 @@ export default {
     {
       tema: '3. Especificación de requisitos',
       referencia:
-        'IEEE. (2009). 830-1998 - IEEE Recommended Practice for Software Requirements Specifications. IEEE Xplore.',
+        'IEEE. (2009). 830-1998 - IEEE <em>Recommended Practice for Software Requirements Specifications</em>. IEEE Xplore.',
       tipo: 'Página web',
       link: 'https://ieeexplore.ieee.org/document/720574',
     },
     {
       tema: '3. Especificación de requisitos',
       referencia:
-        'ISO. (2018). ISO/IEC/IEEE 29148:2011 Systems and software engineering — Life cycle processes — Requirements engineering.',
+        'ISO. (2018). ISO/IEC/IEEE 29148:2011 <em>Systems and software engineering — Life cycle processes — Requirements engineering</em>.',
       tipo: 'Página web',
       link: 'https://www.iso.org/standard/45171.html',
     },
     {
       tema: '5. Metodologías de desarrollo',
       referencia:
-        'Henao, C. (2018). Qué son las metodologías ágiles en el desarrollo de Software ',
+        'Henao, C. (2018). Qué son las metodologías ágiles en el desarrollo de <em>Software</em>.',
       tipo: 'Video',
       link: 'https://youtu.be/fHKsufzM7qQ',
     },
@@ -272,14 +278,14 @@ export default {
     {
       tema: '6. Modelos de procesos y diagrama de flujo',
       referencia:
-        'Kielbasiewicz, N. (2016). Chapter 3 Use case diagrams. TikZ-UML.',
+        'Kielbasiewicz, N. (2016). <em>Chapter 3 Use case diagrams. TikZ-UML</em>.',
       tipo: 'Tutorial',
       link:
         'https://perso.ensta-paris.fr/~kielbasi/tikzuml/var/files/html/web-tikz-uml-userguidech3.html',
     },
     {
       tema: '7.1 Tipos y clasificación de la información',
-      referencia: 'Jibaro X. (2019). Tipos de preguntas en una encuesta ',
+      referencia: 'Jibaro X. (2019). Tipos de preguntas en una encuesta.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=mwnQuUi9014',
     },
@@ -351,7 +357,7 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'AllCode. (2021). 10 Top Cloud Providers in 2021.',
+      referencia: 'AllCode. (2021). 10 Top Cloud Providers in 2023.',
       link: 'https://allcode.com/cloud-providers/',
     },
     {
@@ -362,7 +368,7 @@ export default {
     },
     {
       referencia:
-        'Da Silva, D. (2021). ¿Qué es la metodología ágil? ¿Para qué sirve? Blog de Zendesk.',
+        'Da Silva, D. (2021). ¿Qué es la metodología ágil y cuáles son las más utilizadas? Blog de Zendesk',
       link: 'https://www.zendesk.com.mx/blog/metodologia-agil-que-es/',
     },
     {

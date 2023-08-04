@@ -57,7 +57,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Tabla 7
+          h5 Tabla 8
           span Ejemplos de SRS diligenciados
         
         .tabla-a.color-acento-contenido(data-aos="zoom-in")
@@ -105,7 +105,7 @@
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img06.svg")
 
-    p Las fuentes de requerimientos incluyen los propietarios del problema, los #[em stakeholders], documentos y otros sistemas (Pearson, 2002). En ese sentido, los requerimientos pueden obtenerse en diversas fuentes que pueden clasificarse en gente (people), productos o documentos, pero cualquiera sea la fuente de esos requerimientos deben ser chequeados con los #[em stakeholders].
+    p Las fuentes de requerimientos incluyen los propietarios del problema, los #[em stakeholders], documentos y otros sistemas (Pearson, 2002). En ese sentido, los requerimientos pueden obtenerse en diversas fuentes que pueden clasificarse en gente (#[em people]), productos o documentos, pero cualquiera sea la fuente de esos requerimientos deben ser chequeados con los #[em stakeholders].
     p Estas fuentes de requerimientos, se pueden clasificar en:
 
     .row.justify-content-center.mb-5
@@ -201,7 +201,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Tabla 2
+          h5 Tabla 9
           span Roles involucrados en la ingeniería de requisitos.
         
         .tabla-a.color-acento-contenido(data-aos="zoom-in")
@@ -257,7 +257,7 @@
               p Para desarrollar la matriz de #[em stakeholders] es necesario identificar las entradas necesarias que proveerán la información con la que el líder y el equipo de proyecto trabajarán para desarrollar la matriz misma. Tales entradas pueden ser el acta de constitución de proyecto, documentos de adquisición, activos de los procesos y factores ambientales de la organización.
             .col-lg-8.col-10
               .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-                h5 Figura 2
+                h5 Figura 5.
                 span Entradas, herramientas y técnicas, salidas
               img(src="@/assets/curso/tema4/img16.svg")
 
@@ -314,13 +314,13 @@
         img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Categorización de #[em stakeholders] y estrategias de gestión de las expectativas
 
-    p Como ya se había mencionado anteriormente, la matriz de stakholders es una herramienta muy útil que permite clasificar a los involucrados en el proyecto según sus niveles de interés e influencia, priorizando a los más importantes y desarrollando así las estrategias correspondientes para gestionar sus expectativas. De la misma manera, su clasificación puede cambiar durante la vida del proyecto. Así, aquellos que fueron inicialmente identificados con un alto nivel de influencia en el proyecto, pueden ser reclasificados a un nivel más bajo durante otras etapas de la vida del proyecto.
+    p Como ya se había mencionado anteriormente, la matriz de #[em stakholders] es una herramienta muy útil que permite clasificar a los involucrados en el proyecto según sus niveles de interés e influencia, priorizando a los más importantes y desarrollando así las estrategias correspondientes para gestionar sus expectativas. De la misma manera, su clasificación puede cambiar durante la vida del proyecto. Así, aquellos que fueron inicialmente identificados con un alto nivel de influencia en el proyecto, pueden ser reclasificados a un nivel más bajo durante otras etapas de la vida del proyecto.
     p La categorización de los #[em stakeholders] se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada #[em stakeholder] dentro del grupo para el cual se definen diferentes estrategias (figura 6).
 
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          h5 Figura 6
+          h5 Figura 6.
           span Ejemplo de matriz interés vs. influencia
       .col-lg-10.BGIMG01.p-4(data-aos="zoom-in")
         .row.justify-content-center
@@ -355,7 +355,7 @@
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img25.png")
       
-    p En las entrevistas se pueden identificar tres fases: #[b preparación, realización y análisis] (Piattini et al. 1996), como se puede observar en el siguiente gráfico.
+    p En las entrevistas se pueden identificar tres fases (Piattini et al. 1996):
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       TabsB.color-acento-contenido
@@ -476,7 +476,6 @@
               li(style="margin-bottom: 2px").d-flex
                 i.fas.fa-caret-square-right(style="color: #FF6148")
                 p.mb-0 Es la más ágil y la que proporciona más información en general, pero requiere un cierto dominio por parte del entrevistador.
-            p En el material complementario se pueden revisar ejemplo de entrevistas.
       .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
         img(src="@/assets/curso/tema4/img32.svg")
           
@@ -569,7 +568,7 @@
     .row.justify-content-center.mb-4
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 7
+          h5 Figura 7.
           span Tipos de observación
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema4/img38.svg")
@@ -676,9 +675,8 @@
         img(src="@/assets/curso/tema4/img45.svg")
     
     .mb-4.d-flex
-      .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
-        h3.col.px-4.mb-0.text-white(data-aos="fade-right") Caso de uso 
+      .d-flex.flex-wrap.px-4(style="background-color: #993A2B; border-radius: 25px; padding: 10px")
+        h4.col.mb-0.text-white(data-aos="fade-right") Caso de uso 
 
     p Se representa mediante un óvalo e indica una función que el sistema debe proveer.
 
@@ -707,8 +705,8 @@
     .row.justify-content-center.mb-4
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 7
-          span Entradas, herramientas y técnicas, salidas
+          h5 Figura 8.
+          span Caso de uso
         .BGR09.p-4(data-aos="zoom-in")
           .row.justify-content-center
             .col-lg-10
@@ -746,7 +744,7 @@
     .row.justify-content-center.mb-4
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 8
+          h5 Figura 9.
           span Regla de tres palabras
         .row.justify-content-center.align-items-center.BGR13.p-4.mb-4(data-aos="zoom-in")
           .col-lg-4.col-8.mb-lg-0.mb-4
@@ -769,8 +767,8 @@
     .row.justify-content-center.mb-4
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 8
-          span Regla de tres palabras
+          h5 Figura 10.
+          span Historias de usuario
         .row.justify-content-center.BGR13.p-4.mb-4
           .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="flip-right")
             img(src="@/assets/curso/tema4/img50.svg")
@@ -786,7 +784,7 @@
     ul.lista-ul--color(data-aos="fade-right")
       li(style="margin-bottom: 2px").d-flex
         i.fas.fa-caret-square-right(style="color: #FF6148")
-        p.mb-0 Detallar a mayor nivel como se realizará la solución.
+        p.mb-0 Detallar a mayor nivel cómo se realizará la solución.
       li(style="margin-bottom: 2px").d-flex
         i.fas.fa-caret-square-right(style="color: #FF6148")
         p.mb-0 Clarificar aspectos de valor, funcionamiento y técnicos.
@@ -806,7 +804,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10.mb-4
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 10
+          h5 Figura 11.
           span Ejemplos de historias de usuario  
         .tabla-a.color-acento-contenido(data-aos="zoom-in")
           table
@@ -821,7 +819,7 @@
                 th(style="background-color: #FFE7E3; font-size: 0.8em") Características / Funcionalidad
                 th(style="background-color: #FFE7E3; font-size: 0.8em") Razón / Resultado
                 th(style="background-color: #FFE7E3; font-size: 0.8em") Número (#) de escenario
-                th(style="background-color: #FFE7E3; font-size: 0.8em") Criterio de aceptación (Titulo)
+                th(style="background-color: #FFE7E3; font-size: 0.8em") Criterio de aceptación (Título)
                 th(style="background-color: #FFE7E3; font-size: 0.8em") Contexto
                 th(style="background-color: #FFE7E3; font-size: 0.8em") Evento
               tr
@@ -957,18 +955,18 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-10.mb-lg-0.mb-4
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 11
+          h5 Figura 12.
           span Escenario representado en formato de #[em storyboard] que representa una situación típica tal y como se realiza actualmente
         figure(data-aos="flip-right")
           img(src="@/assets/curso/tema4/img54.jpg" alt="Dibujo tipo historieta en la que se cuenta el proceso de la muestra de catálogo de productos a un cliente de la forma tradicional.")
-          figcaption Nota: Tomado de Granollers, Lorés y Perdrix (2002)
+          figcaption Nota. Tomado de Granollers, Lorés y Perdrix (2002)
       .col-lg-5.col-10.mb-lg-0.mb-4
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-left")
-          h5 Figura 12
+          h5 Figura 13.
           span Escenario representado en formato de #[em storyboard] que representa la misma situación anterior tal como quedará con la implementación del sistema
         figure(data-aos="flip-left")
           img(src="@/assets/curso/tema4/img55.jpg" alt="Dibujo tipo historieta en la que se cuenta el proceso de la muestra de catálogo de productos a un cliente con la implementación de un sistema.")
-          figcaption Nota: Tomado de Granollers, Lorés y Perdrix (2002)
+          figcaption Nota. Tomado de Granollers, Lorés y Perdrix (2002)
 
     separador
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -980,7 +978,7 @@
       .col-lg-7(data-aos="fade-left")
         .h5 Estas herramientas permiten crear un "simulacro" del sistema.
         p Las herramientas de modelado de sistemas informáticos se emplean para la creación de modelos de sistemas que ya existen o que se desarrollarán; estas herramientas permiten crear un "simulacro" del sistema, a bajo coste y riesgo mínimo. A bajo costo porque, es un conjunto de gráficos y textos que representan el sistema.
-        p El Lenguaje Unificado de Modelado (UML, por sus siglas en inglés, Unified Modeling Language) es el lenguaje de modelado de sistemas de #[em software] más conocido y utilizado en la actualidad; UML es un lenguaje gráfico que permite especificar, modelar, construir y documentar los elementos que forman un sistema #[em software].
+        p El Lenguaje Unificado de Modelado (UML, por sus siglas en inglés, #[em Unified Modeling Language]) es el lenguaje de modelado de sistemas de #[em software] más conocido y utilizado en la actualidad; UML es un lenguaje gráfico que permite especificar, modelar, construir y documentar los elementos que forman un sistema #[em software].
 
     p De otra parte, las herramientas CASE son un conjunto de programas y procesos “guiados”, que ayudan a los analistas, desarrolladores, ingenieros de #[em software] y diseñadores en una o todas las etapas que comprende un ciclo de vida, con el objetivo de facilitar el desarrollo de #[em software]. El objetivo general de estas herramientas es acelerar el proceso para el que han sido diseñadas, es decir, para automatizar o apoyar una o más fases del ciclo de vida del desarrollo de sistemas. CASE proporciona un conjunto de herramientas semiautomatizadas y automatizadas que están creando una nueva cultura de ingeniería en muchas empresas. Las herramientas CASE se diseñaron para aumentar la productividad en el desarrollo de #[em software] y reducir su costo.
     p Existen muchas herramientas para modelado tanto en libres como con derechos comerciales; a renglón seguido se listan las herramientas CASE más utilizadas:
@@ -1071,7 +1069,7 @@
             p.mb-0 #[b Figura 15]. Herramienta de modelado MagicDraw.
         .row.justify-content-center.py-3.py-md-4(titulo="StarUML")
           .col-12.mb-4
-            p Es una herramienta para el modelamiento de #[em software] basado en los estándares UML (Unified Modeling Language) y MDA (Model Driven Arquitecture).
+            p Es una herramienta para el modelamiento de #[em software] basado en los estándares UML (#[em Unified Modeling Language]) y MDA (#[em Model Driven Arquitecture]).
             p Da soporte completo al diseño UML mediante el uso de:
             ul.lista-ul--color
               li(style="margin-bottom: 2px").d-flex
