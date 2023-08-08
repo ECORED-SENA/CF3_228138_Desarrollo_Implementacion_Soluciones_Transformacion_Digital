@@ -53,7 +53,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Matriz de trazabilidad',
+            titulo: 'Matrices de trazabilidad',
             hash: 't_2_2',
           },
           {
@@ -87,7 +87,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '3.3',
             titulo:
-              'La especificación de requisitos a través de marcos de trabajo ágiles',
+              'La especificación de requisitos a través de métodos y metodologías ágiles',
             hash: 't_3_3',
           },
           {

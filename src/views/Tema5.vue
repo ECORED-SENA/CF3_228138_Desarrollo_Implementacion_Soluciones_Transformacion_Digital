@@ -51,7 +51,7 @@
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema5/img04.png")
     
-    p Existen aspectos muy marcados de las metodologías ágiles respecto a las metodologías tradicionales que dejan entrever sus características, ver tabla 1:
+    p Existen aspectos muy marcados de las metodologías ágiles respecto a las metodologías tradicionales que dejan entrever sus características, ver tabla 10:
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -199,12 +199,12 @@
             .col-lg-6.col-9
               img(src="@/assets/curso/tema5/img22.svg")
         .col-lg-10(data-aos="fade-left")
-          p.mb-0 En este ciclo se desarrolla la lista de requisitos que se priorizan a través de una planificación; se realiza la lista de las tareas por llevar a cabo (iteraciones); se determina el tiempo de las iteraciones que es aproximadamente de una semana (1) por actividad hasta completar un máximo de cuatro (4) por iteración, es decir, 30 días y el equipo se organizan en parejas o en las personas que sean necesarias para completarla. Los miembros del equipo se auto organizan y establecen sus propios objetivos de acuerdo con el producto que debe entregar al finalizar la iteración, ver figura 14.
+          p.mb-0 En este ciclo se desarrolla la lista de requisitos que se priorizan a través de una planificación; se realiza la lista de las tareas por llevar a cabo (iteraciones); se determina el tiempo de las iteraciones que es aproximadamente de una semana (1) por actividad hasta completar un máximo de cuatro (4) por iteración, es decir, 30 días y el equipo se organizan en parejas o en las personas que sean necesarias para completarla. Los miembros del equipo se auto organizan y establecen sus propios objetivos de acuerdo con el producto que debe entregar al finalizar la iteración, ver figura 19.
         
     .row.justify-content-center.mb-4
       .col-lg-8.mb-4(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          h5 Figura 14.
+          h5 Figura 19.
           span Ciclo #[em game] - Proceso realizado en cada iteración del producto
       .col-lg-6.p-4(data-aos="zoom-in")
         img(src="@/assets/curso/tema5/img23.svg" alt="La planificación de la iteración, la ejecución de tareas, la sincronización diaria, la revisión del producto y la retrospectiva son el ciclo game.")

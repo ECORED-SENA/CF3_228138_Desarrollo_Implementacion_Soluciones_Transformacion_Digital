@@ -210,7 +210,7 @@
 
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.3 La especificación de requisitos a través de marcos de trabajo ágiles
+      h2 3.3 La especificación de requisitos a través de métodos y metodologías ágiles
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")

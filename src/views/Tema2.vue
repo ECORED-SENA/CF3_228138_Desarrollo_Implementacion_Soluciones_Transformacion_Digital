@@ -423,7 +423,7 @@
     
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.2 Matriz de trazabilidad
+      h2 2.2 Matrices de trazabilidad
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7(data-aos="fade-left")

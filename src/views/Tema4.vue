@@ -314,7 +314,7 @@
         img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Categorización de #[em stakeholders] y estrategias de gestión de las expectativas
 
-    p Como ya se había mencionado anteriormente, la matriz de #[em stakholders] es una herramienta muy útil que permite clasificar a los involucrados en el proyecto según sus niveles de interés e influencia, priorizando a los más importantes y desarrollando así las estrategias correspondientes para gestionar sus expectativas. De la misma manera, su clasificación puede cambiar durante la vida del proyecto. Así, aquellos que fueron inicialmente identificados con un alto nivel de influencia en el proyecto, pueden ser reclasificados a un nivel más bajo durante otras etapas de la vida del proyecto.
+    p Como ya se había mencionado anteriormente, la matriz de #[em stakeholders] es una herramienta muy útil que permite clasificar a los involucrados en el proyecto según sus niveles de interés e influencia, priorizando a los más importantes y desarrollando así las estrategias correspondientes para gestionar sus expectativas. De la misma manera, su clasificación puede cambiar durante la vida del proyecto. Así, aquellos que fueron inicialmente identificados con un alto nivel de influencia en el proyecto, pueden ser reclasificados a un nivel más bajo durante otras etapas de la vida del proyecto.
     p La categorización de los #[em stakeholders] se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada #[em stakeholder] dentro del grupo para el cual se definen diferentes estrategias (figura 6).
 
     .row.justify-content-center.mb-4
@@ -1046,7 +1046,7 @@
               .col-lg-10
                 img(src="@/assets/curso/tema4/img57.jpg" alt="Captura de pantalla de la interfaz de usuario de la herramienta Gliffy")
           .col-lg-10.BG08.p-2
-            p.mb-0 #[b Figura 13]. Herramienta Gliffy.
+            p.mb-0 #[b Figura 14]. Herramienta Gliffy.
         .row.justify-content-center.py-3.py-md-4(titulo="ArgoUML")
           .col-12.mb-4
             p Ha sido durante mucho tiempo una de las herramientas UML gratuitas de código abierto más populares para el escritorio y aunque ya no se mantiene, muchos modeladores continúan usando el programa para tareas más pequeñas. Su #[em software] es multiplataforma, cuyo el requisito mínimo es Java 5 ArgoUML soporta todos los tipos de diagramas de la versión 1.4 de UML y perfiles UML. El programa también ofrece algunas formas decorativas que no forman parte del estándar UML.
@@ -1056,7 +1056,7 @@
               .col-lg-10
                 img(src="@/assets/curso/tema4/img58.jpg" alt="Captura de pantalla de la interfaz de usuario de la herramienta de modelado ArgoUML")
           .col-lg-10.BG08.p-2
-            p.mb-0 #[b Figura 14]. Herramienta de modelado ArgoUML.
+            p.mb-0 #[b Figura 15]. Herramienta de modelado ArgoUML.
         .row.justify-content-center.py-3.py-md-4(titulo="MagicDraw")
           .col-12.mb-4
             p Esta aplicación de escritorio destaca por su diseño moderno y claro, así como por su variedad de funciones y la facilidad de su uso. Esta herramienta de diagramas UML ofrece además SysML, representación gráfica de procesos de negocio con BPMN (#[em Business Process Model and Notation]) y el marco de arquitectura UPDM (#[em United Profile for DoDAF/MODAF]).
@@ -1066,7 +1066,7 @@
               .col-lg-10
                 img(src="@/assets/curso/tema4/img59.jpg" alt="Captura de pantalla de la interfaz de usuario de la herramienta de modelado MagicDraw")
           .col-lg-10.BG08.p-2
-            p.mb-0 #[b Figura 15]. Herramienta de modelado MagicDraw.
+            p.mb-0 #[b Figura 16]. Herramienta de modelado MagicDraw.
         .row.justify-content-center.py-3.py-md-4(titulo="StarUML")
           .col-12.mb-4
             p Es una herramienta para el modelamiento de #[em software] basado en los estándares UML (#[em Unified Modeling Language]) y MDA (#[em Model Driven Arquitecture]).
@@ -1104,7 +1104,7 @@
               .col-lg-10
                 img(src="@/assets/curso/tema4/img60.jpg" alt="Captura de pantalla de la interfaz de usuario de la herramienta de modelado StarUML")
           .col-lg-10.BG08.p-2
-            p.mb-0 #[b Figura 16]. Herramienta de modelado StarUML.
+            p.mb-0 #[b Figura 17]. Herramienta de modelado StarUML.
         .row.justify-content-center.py-3.py-md-4(titulo="Lucidchart")
           .col-12.mb-4
             p Herramienta para hacer diagramas UML #[em online] que permite comprender las complejidades en el código de forma más rápida y sencilla, pues automatiza el proceso de generación de un diagrama de clases. Simplemente elabora y personaliza los diagramas de secuencia en línea a partir del texto. Al ingresar el marcado en el diálogo emergente, Lucidchart generará automáticamente un diagrama de secuencia que cumple el estándar de PlantUML.
@@ -1113,7 +1113,7 @@
               .col-lg-10
                 img(src="@/assets/curso/tema4/img61.jpg" alt="Captura de pantalla de la interfaz de usuario de la herramienta de modelado Lucidchart.")
           .col-lg-10.BG08.p-2
-            p.mb-0 #[b Figura 17]. Herramienta de modelado Lucidchart.
+            p.mb-0 #[b Figura 18]. Herramienta de modelado Lucidchart.
 
     separador
 </template>
